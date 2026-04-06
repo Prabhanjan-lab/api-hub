@@ -1,0 +1,38 @@
+{
+            "id": "CAE2FC5A-D885-E7F9-BB3B-052F069BD518",
+            "importerCode": "123",
+            "comment": "IT-Sulzer - L&S Passat",
+            "vin": "BVWSUL9CB23101901",
+            "oldVin": "BVWSUL9CB23101901",           
+            "mbt": "G3C",
+            "mbv": "G3C",
+            "modelYear": 2019,
+            "username": "Veera Ganesh Annamsetti",
+            "prNumbers": [
+                "ODP"
+            ],
+            "pknNumber": "011662019",
+            "createdByName": "Veera Ganesh Annamsetti",
+            "dealers": [
+                {
+                    "type": 0,
+                    "countryCode": "FIN",
+                    "partnerNumber": "12345",
+                    "brand": "Audi",
+                    "wholesaler": "123"
+                },
+                {
+                    "type": 1,
+                    "countryCode": null,
+                    "partnerNumber": null,
+                    "wholesaler": null
+                },
+                {
+                    "type": 2,
+                    "countryCode": null,
+                    "partnerNumber": null,
+                    "wholesaler": null
+                }
+            ],
+            "effectiveCountry": "FIN (Finland)"
+        }

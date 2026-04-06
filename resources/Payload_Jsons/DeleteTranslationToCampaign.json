@@ -1,0 +1,194 @@
+{
+  "defaultLanguage": "de_DE",
+  "defaultText": "Das ist ein Text.",
+  "translationType": "AUTOMATIC",
+  "brandContext": "VW",
+  "translationPackage": "Standard Konfiguration - Porsche - cGW",
+  "translationPackageRefId": "LC_01",
+  "oruTranslations": [
+    {
+            "language": "ko_KR",
+            "translation": null
+        },
+        {
+            "language": "fr_FR",
+            "translation": null
+        },
+        {
+            "language": "ru_RU",
+            "translation": null
+        },
+        {
+            "language": "es_US",
+            "translation": null
+        },
+        {
+            "language": "en_SA",
+            "translation": null
+        },
+        {
+            "language": "he_IL",
+            "translation": null
+        },
+        {
+            "language": "sk_SK",
+            "translation": null
+        },
+        {
+            "language": "bs_BA",
+            "translation": null
+        },
+        {
+            "language": "nl_NL",
+            "translation": null
+        },
+        {
+            "language": "nb_NO",
+            "translation": null
+        },
+        {
+            "language": "ja_JP",
+            "translation": null
+        },
+        {
+            "language": "lt_LT",
+            "translation": null
+        },
+        {
+            "language": "zh_HK",
+            "translation": null
+        },
+        {
+            "language": "zh_TW",
+            "translation": null
+        },
+        {
+            "language": "es_ES",
+            "translation": null
+        },
+        {
+            "language": "en_US",
+            "translation": null
+        },
+        {
+            "language": "it_IT",
+            "translation": null
+        },
+        {
+            "language": "pt_BR",
+            "translation": null
+        },
+        {
+            "language": "en_TW",
+            "translation": null
+        },
+        {
+            "language": "sl_SI",
+            "translation": null
+        },
+        {
+            "language": "no_NO",
+            "translation": null
+        },
+        {
+            "language": "fi_FI",
+            "translation": null
+        },
+        {
+            "language": "en_GB",
+            "translation": null
+        },
+        {
+            "language": "tr_TR",
+            "translation": null
+        },
+        {
+            "language": "hr_HR",
+            "translation": null
+        },
+        {
+            "language": "el_GR",
+            "translation": null
+        },
+        {
+            "language": "cs_CZ",
+            "translation": null
+        },
+        {
+            "language": "pt_PT",
+            "translation": null
+        },
+        {
+            "language": "sr_RS",
+            "translation": null
+        },
+        {
+            "language": "zh_CN",
+            "translation": null
+        },
+        {
+            "language": "fr_CA",
+            "translation": null
+        },
+        {
+            "language": "bg_BG",
+            "translation": null
+        },
+        {
+            "language": "ro_RO",
+            "translation": null
+        },
+        {
+            "language": "en_CN",
+            "translation": null
+        },
+        {
+            "language": "lv_LV",
+            "translation": null
+        },
+        {
+            "language": "en_JP",
+            "translation": null
+        },
+        {
+            "language": "en_KR",
+            "translation": null
+        },
+        {
+            "language": "hu_HU",
+            "translation": null
+        },
+        {
+            "language": "ar_SA",
+            "translation": "OK"
+        },
+        {
+            "language": "et_EE",
+            "translation": null
+        },
+        {
+            "language": "sv_SE",
+            "translation": null
+        },
+        {
+            "language": "uk_UA",
+            "translation": null
+        },
+        {
+            "language": "ms_MY",
+            "translation": null
+        },
+        {
+            "language": "es_MX",
+            "translation": null
+        },
+        {
+            "language": "pl_PL",
+            "translation": null
+        },
+        {
+            "language": "da_DK",
+            "translation": null
+        }
+  ]
+}

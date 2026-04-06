@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+	package uota;
+		 
+		// Result Wire Message schema
+		message ResultV1M0B0 {
+		  string vin = 1;
+		  string jobId = 2;
+		  string messageId = 3;
+		  string resultCode = 4;
+		  int64 timestamp = 5;
+		  int32 timeToLive = 6;
+		  string client = 7;
+		  string broker = 8;
+		  string payload = 9;
+		 
+		  // Metadata
+		  string format = 10;
+		  int32 majorVersion = 11;
+		  int32 minorVersion = 12;
+		  int32 bugfixVersion = 13;
+	}
+
+

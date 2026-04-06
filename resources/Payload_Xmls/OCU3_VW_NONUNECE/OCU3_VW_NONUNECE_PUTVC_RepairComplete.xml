@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vc:onlineUpdateVehicleConfiguration xmlns:vc="http://www.vw.com/mbb/onlineUpdateVehicleConfiguration">
+  <vc:controllerInfoList>
+    <vc:controllerInfo vc:fazitId="JTB-07420.09.1311660E5B" vc:hwnumber="4G0035193D" vc:hwv="H32" vc:masterDA="0075" vc:swnumber="4G0035193F" vc:swv="U009"/>
+  </vc:controllerInfoList>
+  <vc:releaseInfoList/>
+  <vc:softwareModuleInfoList>
+    <vc:softwareModuleInfo vc:hwi="H32" vc:name="03" vc:parent="0075" vc:swv="0800"/>
+    <vc:softwareModuleInfo vc:hwi="H32" vc:name="04" vc:parent="0075" vc:swv="0820"/>
+    <vc:softwareModuleInfo vc:hwi="H32" vc:name="05" vc:parent="0075" vc:swv="0820"/>
+    <vc:softwareModuleInfo vc:hwi="H32" vc:name="06" vc:parent="0075" vc:swv="0820"/>
+  </vc:softwareModuleInfoList>
+</vc:onlineUpdateVehicleConfiguration>

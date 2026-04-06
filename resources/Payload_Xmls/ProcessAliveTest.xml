@@ -1,0 +1,31 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmldefs.volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1" xmlns:v11="http://xmldefs.volkswagenag.com/DD/Measure/Ref/V1" xmlns:v12="http://xmldefs.volkswagenag.com/DD/ECU/Ref/V1" xmlns:v13="http://xmldefs.volkswagenag.com/DD/ECU/V1" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1">
+   <soapenv:Header>
+      <wsa:MessageID>urn:uuid:01420ed0-5f41-4239-9b7b-607529cca6d1</wsa:MessageID>
+      <wsa:To>ws://volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1</wsa:To>
+      <wsa:Action>http://xmldefs.volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1/OTASoftwareInformationServicePortType/ProcessAliveTest</wsa:Action>
+      <vwa:Country wsa:isReferenceParameter="true">DE</vwa:Country>
+      <vwa:Brand wsa:IsReferenceParameter="true">A</vwa:Brand>
+      <vwa:Stage wsa:IsReferenceParameter="true">QualityAssurance</vwa:Stage>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <saml2:Assertion ID="asdH4cd56k4dGJygjvgJYgTFYtfyTF" IssueInstant="2008-06-03T16:23:02.111Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+            <saml2:Issuer>http://ws-gateway1.volkswagen.de</saml2:Issuer>
+            <saml2:Subject>
+               <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" NameQualifier="http://xmldefs.volkswagenag.com/Technical/Security/¬         NameQualifier/V1#Anonymous">UNKONWN</saml2:NameID>
+               <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:sender-vouches"/>
+            </saml2:Subject>
+            <saml2:Conditions NotBefore="2008-06-03T16:23:02.163Z" NotOnOrAfter="2008-06-03T16:28:02.163Z"/>
+            <saml2:Advice>
+               <saml2:Assertion ID="bteI5de67l5eHKz23gsdw44tr34333" IssueInstant="2008-06-03T16:23:02.001Z" Version="2.0">
+                  <saml2:Issuer>http://ws-gateway1.volkswagen.de</saml2:Issuer>
+                  <saml2:Subject>
+                     <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" NameQualifier="http://xmldefs.volkswagenag.com/Technical/Security/¬             NameQualifier/V1#UMSGlobalUserID">Benutzername</saml2:NameID>
+                  </saml2:Subject>
+               </saml2:Assertion>
+            </saml2:Advice>
+         </saml2:Assertion>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:ProcessAliveTest/>
+   </soapenv:Body>
+</soapenv:Envelope>

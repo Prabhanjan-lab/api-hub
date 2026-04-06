@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmldefs.volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1" xmlns:v11="http://xmldefs.volkswagenag.com/DD/Vehicle/Ref/V1" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1">
+   <soapenv:Header>
+   	  <wsa:MessageID>urn:uuid:01420ed0-5f41-4239-9b7b-607529cca6d1</wsa:MessageID>
+   	  <wsa:To>ws://volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1</wsa:To>
+      <wsa:Action>https://xmldefs.volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1/OTASoftwareInformationServicePortType/ProcessAliveTest</wsa:Action>
+      <To wsu:Id="d3090ac1-1a95-4ff3-953f-c6ff44cd0575" xmlns="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">ws://volkswagenag.com/CSP/AfterSales/OTASoftwareInformationService/V1</To>
+      <ReplyTo wsu:Id="580d0464-2225-4269-9044-c6ff44cdcb0b" xmlns="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+      </ReplyTo>
+      <MessageID wsu:Id="8ed73a71-e801-4e4f-a22e-c6ff44cde6cf" xmlns="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:42b442f7-9f9b-4110-9881-ba65518cbdc3</MessageID>
+      <vwa:Country wsa:IsReferenceParameter="true" wsu:Id="5359c760-a73e-493d-ac4c-c6ff44cd9881" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">DE</vwa:Country>
+      <vwa:Brand wsa:IsReferenceParameter="true" wsu:Id="dfc3cbc4-c26c-47a6-9571-c6ff44cd672d" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">A</vwa:Brand>
+      <vwa:Stage wsa:IsReferenceParameter="true" wsu:Id="722a79ac-faae-4d4f-9744-c6ff44cdfaf3" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">Production</vwa:Stage>
+      <vwa:System IsReferenceParameter="true" wsu:Id="1eb0cfaa-48cc-4476-b1e3-c6ff44cd96a7" xmlns:vwa="http://xmldefs.volkswagenag.com/Technical/Addressing/V1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">ICTO-23409</vwa:System>
+      <wsa:From wsu:Id="edd9225a-43f0-4bc9-b097-c6ff44cd996d" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+         <wsa:Metadata>
+            <PartnerKey>
+               <Brand>V</Brand>
+               <Country>DEU</Country>
+               <PartnerNumber>GRP</PartnerNumber>
+            </PartnerKey>
+         </wsa:Metadata>
+      </wsa:From>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:NotifyVehicleCampaign>
+         <v11:VehicleRef>
+            <v11:VIN>vin</v11:VIN>
+         </v11:VehicleRef>
+         <v1:SoftwareUpdateID>campaign-criterion</v1:SoftwareUpdateID>
+      </v1:NotifyVehicleCampaign>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,44 @@
+{
+            "id": "",
+            "importerCode": "568",
+            "comment": null,
+            "manufacturer": "VW",
+            "mbt": "CDD",
+            "vin": "VIN",
+            "mbv": "545556",
+            "modelYear": 2021,
+            "username": "Hagen Krüger",
+            "prNumbers": [
+                "NZ4",
+                "EL2",
+                "ODP",
+                "EL5",
+                "EG1"
+            ],
+            "pknNumber": "527992018",
+            "createdByName": "Hagen Krüger",
+            "dealers": [
+                {
+                    "type": "ATTENDING",
+                    "countryCode": "DEU",
+                    "partnerNumber": "FU100",
+                    "brand": "VW PKW",
+                    "wholesaler": "568"
+                },
+                {
+                    "type": "DELIVERING",
+                    "countryCode": "DEU",
+                    "partnerNumber": "FU200",
+                    "brand": "VW PKW",
+                    "wholesaler": "800"
+                },
+                {
+                    "type": "ORDERING",
+                    "countryCode": "DEU",
+                    "partnerNumber": "FU300",
+                    "brand": "VW PKW",
+                    "wholesaler": "900"
+                }
+            ],
+            "effectiveCountry": "DEU (Germany)"
+        }

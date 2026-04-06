@@ -1,0 +1,477 @@
+2025-10-17 07:19:03.972 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:19:03.980 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101703.json).
+2025-10-17 07:19:04.880 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101703.json).
+2025-10-17 07:19:04.880 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:19:04.885 | INFO | Found ID = TBEV
+2025-10-17 07:19:05.056 | INFO | ReCall ID 'TBEV': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101703.json.out.txt
+2025-10-17 07:19:05.058 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101703.json).
+2025-10-17 07:26:57.844 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:26:57.844 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101757.json).
+2025-10-17 07:26:57.907 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101757.json).
+2025-10-17 07:26:57.908 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:26:57.926 | INFO | Found ID = TB70
+2025-10-17 07:26:57.961 | INFO | ReCall ID 'TB70': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101757.json.out.txt
+2025-10-17 07:26:57.961 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101757.json).
+2025-10-17 07:30:07.967 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:30:07.968 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 07:30:08.008 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 07:30:08.008 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:30:08.012 | INFO | Found ID = TBEX
+2025-10-17 07:30:08.031 | INFO | ReCall ID 'TBEX': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json.out.txt
+2025-10-17 07:30:08.031 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 07:33:19.021 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:33:19.022 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 07:33:19.047 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 07:33:19.050 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:33:19.054 | INFO | Found ID = TBEY
+2025-10-17 07:33:19.072 | INFO | ReCall ID 'TBEY': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json.out.txt
+2025-10-17 07:33:19.072 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 07:36:30.086 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:36:30.087 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101730.json).
+2025-10-17 07:36:30.107 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101730.json).
+2025-10-17 07:36:30.107 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:36:30.110 | INFO | Found ID = TBEZ
+2025-10-17 07:36:30.125 | INFO | ReCall ID 'TBEZ': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101730.json.out.txt
+2025-10-17 07:36:30.125 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101730.json).
+2025-10-17 07:39:51.486 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:39:51.486 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101751.json).
+2025-10-17 07:39:51.781 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101751.json).
+2025-10-17 07:39:51.781 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:39:51.795 | INFO | Found ID = TB3A
+2025-10-17 07:39:51.910 | INFO | ReCall ID 'TB3A': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101751.json.out.txt
+2025-10-17 07:39:51.911 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101751.json).
+2025-10-17 07:52:07.093 | FINE | Analysing and checking call parameters (null).
+2025-10-17 07:52:07.094 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 07:52:07.115 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 07:52:07.115 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 07:52:07.122 | INFO | Found ID = TBF0
+2025-10-17 07:52:07.135 | INFO | ReCall ID 'TBF0': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json.out.txt
+2025-10-17 07:52:07.135 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 08:01:29.436 | FINE | Analysing and checking call parameters (null).
+2025-10-17 08:01:29.436 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 08:01:29.461 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 08:01:29.462 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 08:01:29.466 | INFO | Found ID = TBF1
+2025-10-17 08:01:29.489 | INFO | ReCall ID 'TBF1': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json.out.txt
+2025-10-17 08:01:29.489 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 08:16:58.169 | FINE | Analysing and checking call parameters (null).
+2025-10-17 08:16:58.170 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101758.json).
+2025-10-17 08:16:58.195 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101758.json).
+2025-10-17 08:16:58.196 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 08:16:58.199 | INFO | Found ID = TBF2
+2025-10-17 08:16:58.223 | INFO | ReCall ID 'TBF2': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101758.json.out.txt
+2025-10-17 08:16:58.223 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101758.json).
+2025-10-17 08:20:07.805 | FINE | Analysing and checking call parameters (null).
+2025-10-17 08:20:07.805 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 08:20:07.836 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 08:20:07.836 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 08:20:07.839 | INFO | Found ID = TBF3
+2025-10-17 08:20:07.861 | INFO | ReCall ID 'TBF3': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json.out.txt
+2025-10-17 08:20:07.862 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101707.json).
+2025-10-17 08:23:17.540 | FINE | Analysing and checking call parameters (null).
+2025-10-17 08:23:17.564 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 08:23:17.743 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 08:23:17.743 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 08:23:17.752 | INFO | Found ID = TBF4
+2025-10-17 08:23:17.782 | INFO | ReCall ID 'TBF4': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json.out.txt
+2025-10-17 08:23:17.783 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 09:33:55.722 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:33:55.729 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101755.json).
+2025-10-17 09:33:56.728 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101755.json).
+2025-10-17 09:33:56.728 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:33:56.733 | INFO | Found ID = TBF5
+2025-10-17 09:33:56.929 | INFO | ReCall ID 'TBF5': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101755.json.out.txt
+2025-10-17 09:33:56.929 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101755.json).
+2025-10-17 09:37:17.289 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:37:17.290 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 09:37:17.330 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 09:37:17.332 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:37:17.336 | INFO | Found ID = TBF6
+2025-10-17 09:37:17.366 | INFO | ReCall ID 'TBF6': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json.out.txt
+2025-10-17 09:37:17.366 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 09:40:34.465 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:40:34.465 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101734.json).
+2025-10-17 09:40:34.493 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101734.json).
+2025-10-17 09:40:34.493 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:40:34.496 | INFO | Found ID = TBF7
+2025-10-17 09:40:34.514 | INFO | ReCall ID 'TBF7': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101734.json.out.txt
+2025-10-17 09:40:34.514 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101734.json).
+2025-10-17 09:44:22.175 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:44:22.175 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101722.json).
+2025-10-17 09:44:22.208 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101722.json).
+2025-10-17 09:44:22.208 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:44:22.212 | INFO | Found ID = TBF8
+2025-10-17 09:44:22.239 | INFO | ReCall ID 'TBF8': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101722.json.out.txt
+2025-10-17 09:44:22.239 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101722.json).
+2025-10-17 09:47:40.032 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:47:40.033 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101740.json).
+2025-10-17 09:47:40.055 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101740.json).
+2025-10-17 09:47:40.055 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:47:40.058 | INFO | Found ID = TBF9
+2025-10-17 09:47:40.082 | INFO | ReCall ID 'TBF9': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101740.json.out.txt
+2025-10-17 09:47:40.082 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101740.json).
+2025-10-17 09:50:56.316 | FINE | Analysing and checking call parameters (null).
+2025-10-17 09:50:56.317 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101756.json).
+2025-10-17 09:50:56.336 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101756.json).
+2025-10-17 09:50:56.336 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 09:50:56.339 | INFO | Found ID = TBFA
+2025-10-17 09:50:56.356 | INFO | ReCall ID 'TBFA': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101756.json.out.txt
+2025-10-17 09:50:56.356 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101756.json).
+2025-10-17 10:00:45.718 | FINE | Analysing and checking call parameters (null).
+2025-10-17 10:00:45.721 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101745.json).
+2025-10-17 10:00:47.590 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101745.json).
+2025-10-17 10:00:47.591 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 10:00:47.599 | INFO | Found ID = TBFB
+2025-10-17 10:00:47.840 | INFO | ReCall ID 'TBFB': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101745.json.out.txt
+2025-10-17 10:00:47.841 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101745.json).
+2025-10-17 10:08:20.577 | FINE | Analysing and checking call parameters (null).
+2025-10-17 10:08:20.577 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101720.json).
+2025-10-17 10:08:20.620 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101720.json).
+2025-10-17 10:08:20.620 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 10:08:20.625 | INFO | Found ID = TBFC
+2025-10-17 10:08:20.648 | INFO | ReCall ID 'TBFC': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101720.json.out.txt
+2025-10-17 10:08:20.648 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101720.json).
+2025-10-17 10:11:39.632 | FINE | Analysing and checking call parameters (null).
+2025-10-17 10:11:39.633 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-10-17 10:11:39.666 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-10-17 10:11:39.667 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 10:11:39.676 | INFO | Found ID = TBFD
+2025-10-17 10:11:39.697 | INFO | ReCall ID 'TBFD': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json.out.txt
+2025-10-17 10:11:39.697 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-10-17 10:16:10.321 | FINE | Analysing and checking call parameters (null).
+2025-10-17 10:16:10.323 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101710.json).
+2025-10-17 10:16:10.384 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101710.json).
+2025-10-17 10:16:10.384 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 10:16:10.389 | INFO | Found ID = TBFE
+2025-10-17 10:16:10.424 | INFO | ReCall ID 'TBFE': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101710.json.out.txt
+2025-10-17 10:16:10.424 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101710.json).
+2025-10-17 10:53:19.636 | FINE | Analysing and checking call parameters (null).
+2025-10-17 10:53:19.642 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 10:53:20.407 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 10:53:20.408 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 10:53:20.416 | INFO | Found ID = TBFF
+2025-10-17 10:53:20.574 | INFO | ReCall ID 'TBFF': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json.out.txt
+2025-10-17 10:53:20.575 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101719.json).
+2025-10-17 11:25:17.922 | FINE | Analysing and checking call parameters (null).
+2025-10-17 11:25:17.931 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 11:25:19.038 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 11:25:19.038 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 11:25:19.051 | INFO | Found ID = TBFH
+2025-10-17 11:25:19.310 | INFO | ReCall ID 'TBFH': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json.out.txt
+2025-10-17 11:25:19.311 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101717.json).
+2025-10-17 11:28:29.863 | FINE | Analysing and checking call parameters (null).
+2025-10-17 11:28:29.864 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 11:28:29.926 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 11:28:29.927 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 11:28:29.933 | INFO | Found ID = TBFI
+2025-10-17 11:28:29.997 | INFO | ReCall ID 'TBFI': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json.out.txt
+2025-10-17 11:28:29.998 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101729.json).
+2025-10-17 11:31:39.409 | FINE | Analysing and checking call parameters (null).
+2025-10-17 11:31:39.410 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-10-17 11:31:39.463 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-10-17 11:31:39.463 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-10-17 11:31:39.466 | INFO | Found ID = TBFJ
+2025-10-17 11:31:39.493 | INFO | ReCall ID 'TBFJ': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json.out.txt
+2025-10-17 11:31:39.493 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025101739.json).
+2025-12-18 14:03:24.367 | FINE | Analysing and checking call parameters (null).
+2025-12-18 14:03:24.373 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2025121824.json).
+2025-12-18 14:03:25.579 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2025121824.json).
+2025-12-18 14:03:25.580 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2025-12-18 14:03:25.585 | INFO | Found ID = TBH0
+2025-12-18 14:03:25.845 | INFO | ReCall ID 'TBH0': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2025121824.json.out.txt
+2025-12-18 14:03:25.846 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2025121824.json).
+2026-01-12 07:20:20.488 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:20:20.493 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:20:21.374 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:20:21.374 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:20:21.380 | INFO | Found ID = TBH1
+2026-01-12 07:20:21.560 | INFO | ReCall ID 'TBH1': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json.out.txt
+2026-01-12 07:20:21.561 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:22:29.810 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:22:29.814 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011229.json).
+2026-01-12 07:22:30.451 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011229.json).
+2026-01-12 07:22:30.451 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:22:30.455 | INFO | Found ID = TBH2
+2026-01-12 07:22:30.622 | INFO | ReCall ID 'TBH2': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011229.json.out.txt
+2026-01-12 07:22:30.624 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011229.json).
+2026-01-12 07:27:06.724 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:27:06.729 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011206.json).
+2026-01-12 07:27:07.365 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011206.json).
+2026-01-12 07:27:07.365 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:27:07.372 | INFO | Found ID = TBH3
+2026-01-12 07:27:07.508 | INFO | ReCall ID 'TBH3': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011206.json.out.txt
+2026-01-12 07:27:07.508 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011206.json).
+2026-01-12 07:37:13.949 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:37:13.953 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011213.json).
+2026-01-12 07:37:14.554 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011213.json).
+2026-01-12 07:37:14.554 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:37:14.558 | INFO | Found ID = TBH4
+2026-01-12 07:37:14.706 | INFO | ReCall ID 'TBH4': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011213.json.out.txt
+2026-01-12 07:37:14.707 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011213.json).
+2026-01-12 07:44:20.029 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:44:20.033 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:44:20.647 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:44:20.647 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:44:20.651 | INFO | Found ID = TBH5
+2026-01-12 07:44:20.923 | INFO | ReCall ID 'TBH5': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json.out.txt
+2026-01-12 07:44:20.924 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011220.json).
+2026-01-12 07:50:44.063 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:50:44.066 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011244.json).
+2026-01-12 07:50:44.670 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011244.json).
+2026-01-12 07:50:44.671 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:50:44.676 | INFO | Found ID = TBH6
+2026-01-12 07:50:44.804 | INFO | ReCall ID 'TBH6': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011244.json.out.txt
+2026-01-12 07:50:44.804 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011244.json).
+2026-01-12 07:55:57.638 | FINE | Analysing and checking call parameters (null).
+2026-01-12 07:55:57.642 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011257.json).
+2026-01-12 07:55:58.246 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011257.json).
+2026-01-12 07:55:58.247 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 07:55:58.251 | INFO | Found ID = TBH7
+2026-01-12 07:55:58.391 | INFO | ReCall ID 'TBH7': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011257.json.out.txt
+2026-01-12 07:55:58.391 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011257.json).
+2026-01-12 08:03:10.918 | FINE | Analysing and checking call parameters (null).
+2026-01-12 08:03:10.920 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011210.json).
+2026-01-12 08:03:12.059 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011210.json).
+2026-01-12 08:03:12.059 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 08:03:12.070 | INFO | Found ID = TBH8
+2026-01-12 08:03:12.238 | INFO | ReCall ID 'TBH8': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011210.json.out.txt
+2026-01-12 08:03:12.238 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011210.json).
+2026-01-12 08:12:18.551 | FINE | Analysing and checking call parameters (null).
+2026-01-12 08:12:18.555 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011218.json).
+2026-01-12 08:12:19.177 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011218.json).
+2026-01-12 08:12:19.177 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 08:12:19.183 | INFO | Found ID = TBH9
+2026-01-12 08:12:19.333 | INFO | ReCall ID 'TBH9': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011218.json.out.txt
+2026-01-12 08:12:19.333 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011218.json).
+2026-01-12 08:15:58.545 | FINE | Analysing and checking call parameters (null).
+2026-01-12 08:15:58.549 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011258.json).
+2026-01-12 08:15:59.238 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011258.json).
+2026-01-12 08:15:59.238 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 08:15:59.245 | INFO | Found ID = TBHA
+2026-01-12 08:15:59.378 | INFO | ReCall ID 'TBHA': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011258.json.out.txt
+2026-01-12 08:15:59.379 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011258.json).
+2026-01-12 09:03:26.371 | FINE | Analysing and checking call parameters (null).
+2026-01-12 09:03:26.375 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011226.json).
+2026-01-12 09:03:27.126 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011226.json).
+2026-01-12 09:03:27.127 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-12 09:03:27.168 | INFO | Found ID = TB3A
+2026-01-12 09:03:27.356 | INFO | ReCall ID 'TB3A': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026011226.json.out.txt
+2026-01-12 09:03:27.358 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026011226.json).
+2026-01-20 05:46:48.608 | FINE | Analysing and checking call parameters (null).
+2026-01-20 05:46:48.612 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012048.json).
+2026-01-20 05:46:49.383 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012048.json).
+2026-01-20 05:46:49.384 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-20 05:46:49.390 | INFO | Found ID = TBHD
+2026-01-20 05:46:49.546 | INFO | ReCall ID 'TBHD': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012048.json.out.txt
+2026-01-20 05:46:49.546 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012048.json).
+2026-01-20 06:00:45.215 | FINE | Analysing and checking call parameters (null).
+2026-01-20 06:00:45.222 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012045.json).
+2026-01-20 06:00:45.979 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012045.json).
+2026-01-20 06:00:45.979 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-20 06:00:45.993 | INFO | Found ID = TBHE
+2026-01-20 06:00:46.145 | INFO | ReCall ID 'TBHE': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012045.json.out.txt
+2026-01-20 06:00:46.145 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012045.json).
+2026-01-22 09:48:48.032 | FINE | Analysing and checking call parameters (null).
+2026-01-22 09:48:48.036 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012247.json).
+2026-01-22 09:48:48.748 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012247.json).
+2026-01-22 09:48:48.748 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-22 09:48:48.754 | INFO | Found ID = TBHM
+2026-01-22 09:48:48.908 | INFO | ReCall ID 'TBHM': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012247.json.out.txt
+2026-01-22 09:48:48.908 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012247.json).
+2026-01-22 10:07:01.254 | FINE | Analysing and checking call parameters (null).
+2026-01-22 10:07:01.254 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012201.json).
+2026-01-22 10:07:01.284 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012201.json).
+2026-01-22 10:07:01.284 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-22 10:07:01.288 | INFO | Found ID = TBHM
+2026-01-22 10:07:01.302 | INFO | ReCall ID 'TBHM': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012201.json.out.txt
+2026-01-22 10:07:01.302 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012201.json).
+2026-01-22 10:25:34.137 | FINE | Analysing and checking call parameters (null).
+2026-01-22 10:25:34.141 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012234.json).
+2026-01-22 10:25:34.838 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012234.json).
+2026-01-22 10:25:34.838 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-22 10:25:34.845 | INFO | Found ID = TBHN
+2026-01-22 10:25:35.004 | INFO | ReCall ID 'TBHN': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012234.json.out.txt
+2026-01-22 10:25:35.006 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012234.json).
+2026-01-22 10:30:03.197 | FINE | Analysing and checking call parameters (null).
+2026-01-22 10:30:03.200 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012203.json).
+2026-01-22 10:30:03.834 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012203.json).
+2026-01-22 10:30:03.834 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-22 10:30:03.843 | INFO | Found ID = TBHO
+2026-01-22 10:30:03.997 | INFO | ReCall ID 'TBHO': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012203.json.out.txt
+2026-01-22 10:30:03.997 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012203.json).
+2026-01-22 10:48:16.508 | FINE | Analysing and checking call parameters (null).
+2026-01-22 10:48:16.509 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012216.json).
+2026-01-22 10:48:16.537 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012216.json).
+2026-01-22 10:48:16.537 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-01-22 10:48:16.542 | INFO | Found ID = TBHO
+2026-01-22 10:48:16.558 | INFO | ReCall ID 'TBHO': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026012216.json.out.txt
+2026-01-22 10:48:16.558 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026012216.json).
+2026-02-02 10:44:24.958 | FINE | Analysing and checking call parameters (null).
+2026-02-02 10:44:24.963 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020224.json).
+2026-02-02 10:44:25.877 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020224.json).
+2026-02-02 10:44:25.878 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 10:44:25.884 | INFO | Found ID = TBHQ
+2026-02-02 10:44:26.042 | INFO | ReCall ID 'TBHQ': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020224.json.out.txt
+2026-02-02 10:44:26.042 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020224.json).
+2026-02-02 10:57:32.621 | FINE | Analysing and checking call parameters (null).
+2026-02-02 10:57:32.623 | SEVERE | Error: JSON Schema not found at C:\Users\DKKV990\git\oru-api-test\data\importReCall\recall2_Specification_v1_0.schema.json
+2026-02-02 11:01:25.021 | FINE | Analysing and checking call parameters (null).
+2026-02-02 11:01:25.024 | SEVERE | Error: JSON Schema not found at C:\Users\DKKV990\git\oru-api-test\data\importReCall\recall2_Specification_v1_0.schema.json
+2026-02-02 11:08:26.767 | FINE | Analysing and checking call parameters (null).
+2026-02-02 11:08:26.769 | SEVERE | Error: JSON Schema not found at C:\Users\DKKV990\git\oru-api-test\data\importReCall\recall2_Specification_v1_0.schema.json
+2026-02-02 11:14:30.307 | FINE | Analysing and checking call parameters (null).
+2026-02-02 11:14:30.311 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026020230.json).
+2026-02-02 11:14:31.026 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026020230.json).
+2026-02-02 11:14:31.026 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 11:14:31.032 | INFO | Found ID = TBHU
+2026-02-02 11:14:31.199 | INFO | ReCall ID 'TBHU': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026020230.json.out.txt
+2026-02-02 11:14:31.199 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026020230.json).
+2026-02-02 11:25:32.682 | FINE | Analysing and checking call parameters (null).
+2026-02-02 11:25:32.684 | SEVERE | Error: JSON Schema not found at C:\Users\DKKV990\git\oru-api-test\data\importReCall\recall2_Specification_v1_0.schema.json
+2026-02-02 12:39:05.392 | FINE | Analysing and checking call parameters (null).
+2026-02-02 12:39:05.397 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020205.json).
+2026-02-02 12:39:06.156 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020205.json).
+2026-02-02 12:39:06.157 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 12:39:06.163 | INFO | Found ID = TBHV
+2026-02-02 12:39:06.307 | INFO | ReCall ID 'TBHV': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020205.json.out.txt
+2026-02-02 12:39:06.308 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020205.json).
+2026-02-02 12:43:32.378 | FINE | Analysing and checking call parameters (null).
+2026-02-02 12:43:32.382 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020232.json).
+2026-02-02 12:43:32.998 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020232.json).
+2026-02-02 12:43:32.998 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 12:43:33.004 | INFO | Found ID = TBHW
+2026-02-02 12:43:33.161 | INFO | ReCall ID 'TBHW': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020232.json.out.txt
+2026-02-02 12:43:33.161 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020232.json).
+2026-02-02 12:49:55.523 | FINE | Analysing and checking call parameters (null).
+2026-02-02 12:49:55.526 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020255.json).
+2026-02-02 12:49:56.133 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020255.json).
+2026-02-02 12:49:56.134 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 12:49:56.138 | INFO | Found ID = TBHX
+2026-02-02 12:49:56.290 | INFO | ReCall ID 'TBHX': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020255.json.out.txt
+2026-02-02 12:49:56.290 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020255.json).
+2026-02-02 12:58:07.689 | FINE | Analysing and checking call parameters (null).
+2026-02-02 12:58:07.693 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020207.json).
+2026-02-02 12:58:08.371 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020207.json).
+2026-02-02 12:58:08.371 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-02 12:58:08.378 | INFO | Found ID = TBHY
+2026-02-02 12:58:08.553 | INFO | ReCall ID 'TBHY': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020207.json.out.txt
+2026-02-02 12:58:08.553 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026020207.json).
+2026-02-12 06:57:45.837 | FINE | Analysing and checking call parameters (null).
+2026-02-12 06:57:45.842 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021245.json).
+2026-02-12 06:57:46.618 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021245.json).
+2026-02-12 06:57:46.618 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 06:57:46.623 | INFO | Found ID = TBI3
+2026-02-12 06:57:46.818 | INFO | ReCall ID 'TBI3': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021245.json.out.txt
+2026-02-12 06:57:46.818 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021245.json).
+2026-02-12 07:07:00.665 | FINE | Analysing and checking call parameters (null).
+2026-02-12 07:07:00.666 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021200.json).
+2026-02-12 07:07:00.720 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021200.json).
+2026-02-12 07:07:00.720 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 07:07:00.727 | INFO | Found ID = TB3A
+2026-02-12 07:07:00.758 | INFO | ReCall ID 'TB3A': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021200.json.out.txt
+2026-02-12 07:07:00.759 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021200.json).
+2026-02-12 07:24:23.347 | FINE | Analysing and checking call parameters (null).
+2026-02-12 07:24:23.353 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021223.json).
+2026-02-12 07:24:24.104 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021223.json).
+2026-02-12 07:24:24.105 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 07:24:24.110 | INFO | Found ID = TBI3
+2026-02-12 07:24:24.305 | INFO | ReCall ID 'TBI3': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021223.json.out.txt
+2026-02-12 07:24:24.305 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021223.json).
+2026-02-12 07:36:04.973 | FINE | Analysing and checking call parameters (null).
+2026-02-12 07:36:04.973 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021204.json).
+2026-02-12 07:36:05.004 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021204.json).
+2026-02-12 07:36:05.004 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 07:36:05.008 | INFO | Found ID = TB3A
+2026-02-12 07:36:05.033 | INFO | ReCall ID 'TB3A': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021204.json.out.txt
+2026-02-12 07:36:05.033 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021204.json).
+2026-02-12 07:46:03.593 | FINE | Analysing and checking call parameters (null).
+2026-02-12 07:46:03.597 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021203.json).
+2026-02-12 07:46:04.316 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021203.json).
+2026-02-12 07:46:04.316 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 07:46:04.350 | INFO | Found ID = TB9Y
+2026-02-12 07:46:04.570 | INFO | ReCall ID 'TB9Y': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021203.json.out.txt
+2026-02-12 07:46:04.570 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021203.json).
+2026-02-12 08:07:14.522 | FINE | Analysing and checking call parameters (null).
+2026-02-12 08:07:14.527 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021214.json).
+2026-02-12 08:07:15.240 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021214.json).
+2026-02-12 08:07:15.240 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-02-12 08:07:15.246 | INFO | Found ID = TB9Y
+2026-02-12 08:07:15.419 | INFO | ReCall ID 'TB9Y': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026021214.json.out.txt
+2026-02-12 08:07:15.420 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026021214.json).
+2026-03-11 12:48:34.552 | FINE | Analysing and checking call parameters (null).
+2026-03-11 12:48:34.560 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031134.json).
+2026-03-11 12:48:35.887 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031134.json).
+2026-03-11 12:48:35.887 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-11 12:48:35.897 | INFO | Found ID = TBIU
+2026-03-11 12:48:36.274 | INFO | ReCall ID 'TBIU': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031134.json.out.txt
+2026-03-11 12:48:36.275 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031134.json).
+2026-03-11 13:21:14.738 | FINE | Analysing and checking call parameters (null).
+2026-03-11 13:21:14.742 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031114.json).
+2026-03-11 13:21:15.532 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031114.json).
+2026-03-11 13:21:15.532 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-11 13:21:15.539 | INFO | Found ID = TBIX
+2026-03-11 13:21:15.704 | INFO | ReCall ID 'TBIX': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031114.json.out.txt
+2026-03-11 13:21:15.704 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031114.json).
+2026-03-11 13:32:53.548 | FINE | Analysing and checking call parameters (null).
+2026-03-11 13:32:53.553 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031153.json).
+2026-03-11 13:32:54.556 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031153.json).
+2026-03-11 13:32:54.556 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-11 13:32:54.567 | INFO | Found ID = TBIY
+2026-03-11 13:32:54.815 | INFO | ReCall ID 'TBIY': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031153.json.out.txt
+2026-03-11 13:32:54.815 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031153.json).
+2026-03-12 05:33:08.756 | FINE | Analysing and checking call parameters (null).
+2026-03-12 05:33:08.766 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031208.json).
+2026-03-12 05:33:09.888 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031208.json).
+2026-03-12 05:33:09.888 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 05:33:09.896 | INFO | Found ID = TBJ1
+2026-03-12 05:33:10.222 | INFO | ReCall ID 'TBJ1': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031208.json.out.txt
+2026-03-12 05:33:10.222 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031208.json).
+2026-03-12 05:52:18.177 | FINE | Analysing and checking call parameters (null).
+2026-03-12 05:52:18.186 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031218.json).
+2026-03-12 05:52:19.317 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031218.json).
+2026-03-12 05:52:19.318 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 05:52:19.327 | INFO | Found ID = TBJ2
+2026-03-12 05:52:19.669 | INFO | ReCall ID 'TBJ2': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031218.json.out.txt
+2026-03-12 05:52:19.670 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031218.json).
+2026-03-12 06:03:06.171 | FINE | Analysing and checking call parameters (null).
+2026-03-12 06:03:06.176 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031206.json).
+2026-03-12 06:03:07.034 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031206.json).
+2026-03-12 06:03:07.034 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 06:03:07.047 | INFO | Found ID = TBJ3
+2026-03-12 06:03:07.282 | INFO | ReCall ID 'TBJ3': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031206.json.out.txt
+2026-03-12 06:03:07.283 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031206.json).
+2026-03-12 06:26:50.925 | FINE | Analysing and checking call parameters (null).
+2026-03-12 06:26:50.941 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031250.json).
+2026-03-12 06:26:51.859 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031250.json).
+2026-03-12 06:26:51.859 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 06:26:51.873 | INFO | Found ID = TBJ5
+2026-03-12 06:26:52.133 | INFO | ReCall ID 'TBJ5': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031250.json.out.txt
+2026-03-12 06:26:52.133 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031250.json).
+2026-03-12 06:36:32.458 | FINE | Analysing and checking call parameters (null).
+2026-03-12 06:36:32.462 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031232.json).
+2026-03-12 06:36:32.623 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031232.json).
+2026-03-12 06:36:32.623 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 06:36:32.656 | INFO | Found ID = TBJ6
+2026-03-12 06:36:32.997 | INFO | ReCall ID 'TBJ6': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031232.json.out.txt
+2026-03-12 06:36:32.997 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031232.json).
+2026-03-12 11:06:47.227 | FINE | Analysing and checking call parameters (null).
+2026-03-12 11:06:47.235 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031247.json).
+2026-03-12 11:06:48.337 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031247.json).
+2026-03-12 11:06:48.337 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 11:06:48.355 | INFO | Found ID = TBJA
+2026-03-12 11:06:48.644 | INFO | ReCall ID 'TBJA': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031247.json.out.txt
+2026-03-12 11:06:48.644 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031247.json).
+2026-03-12 11:25:04.286 | FINE | Analysing and checking call parameters (null).
+2026-03-12 11:25:04.287 | FINE | Parameter checking done (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031204.json).
+2026-03-12 11:25:04.314 | FINE | Preparing file writing (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031204.json).
+2026-03-12 11:25:04.315 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-12 11:25:04.320 | INFO | Found ID = TBJA
+2026-03-12 11:25:04.337 | INFO | ReCall ID 'TBJA': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031204.json.out.txt
+2026-03-12 11:25:04.337 | FINE | File written (data\tempFolder\EEC.N5MI3J.ORU.DATA.2026031204.json).
+2026-03-13 13:43:43.078 | FINE | Analysing and checking call parameters (null).
+2026-03-13 13:43:43.083 | FINE | Parameter checking done (data\tempFolder\EEC.R11I3J.ORU.DATA.2026031343.json).
+2026-03-13 13:43:43.757 | FINE | Preparing file writing (data\tempFolder\EEC.R11I3J.ORU.DATA.2026031343.json).
+2026-03-13 13:43:43.757 | INFO | ReCall ID processing: Generating RECALL Fixed Width File ...
+2026-03-13 13:43:43.764 | INFO | Found ID = TBJE
+2026-03-13 13:43:43.938 | INFO | ReCall ID 'TBJE': Writing output/main frame file to C:\Users\DKKV990\git\oru-api-test\data\tempFolder\EEC.R11I3J.ORU.DATA.2026031343.json.out.txt
+2026-03-13 13:43:43.939 | FINE | File written (data\tempFolder\EEC.R11I3J.ORU.DATA.2026031343.json).

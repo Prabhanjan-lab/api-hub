@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<onlineUpdateVehicleConfiguration xmlns="">
+ <controllerInfoList>
+  	<controllerInfo fazitId="TPO-00102.08.1810110128" hwnumber="8W0919620" hwv="H32" masterDA="0000" name="DUC1H49x" slaveDA="0000" swnumber="8W0919620" swv="0070"/>
+ 	<controllerInfo fazitId="BVX-81520.10.2004313364" hwnumber="8W5920790K" hwv="H09" masterDA="0000" name="KI_FPK2p_AU491_BOSCH" slaveDA="0000" swnumber="8W5920790P" swv="X403"/>
+ 	<controllerInfo fazitId="ALJ-AL220.09.1800010119" hwnumber="8W1919616D" hwv="H20" masterDA="0000" name="LSR1AU49" slaveDA="0000" swnumber="8W1919616D" swv="0103"/>
+ 	<controllerInfo fazitId="GRO-63314.05.1914010133" hwnumber="8W2035043" hwv="041" masterDA="0000" name="MUMMX3" slaveDA="0000" swnumber="8W2035043K" swv="E038"/>
+ </controllerInfoList>
+ <ivdProgHashSHA256List>
+ 	<ivdProgHashSHA256 hash="179dae57999b66a14e84a69d10a2393249cbfc3e6d6f2035dcb1b568f16f6063" id="MUMMX3"/>
+ </ivdProgHashSHA256List>
+ <releaseInfoList>
+ 	<releaseInfo release="M_H_AU_ER_TS_222050938D" variant="FM3-H-S-101-NDC6-EU-AU-MLE-DE"/>
+ </releaseInfoList>
+ <softwareModuleInfoList>
+ 	<softwareModuleInfo hwi="0" name="common" parent="SpeechApp" swv="309.2219.0"/>
+ 	<softwareModuleInfo hwi="0" name="sr" parent="SpeechApp" swv="309.2219.0"/>
+ </softwareModuleInfoList>
+ </onlineUpdateVehicleConfiguration>

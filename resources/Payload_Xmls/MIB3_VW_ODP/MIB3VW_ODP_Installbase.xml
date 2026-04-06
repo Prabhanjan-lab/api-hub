@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<installedBaseCollection>
+    <installedBaseCollection checksum="1e43c12cecce1b72a103ebfc8fe8064a" id="005F">
+        <installedBase checksum="2a454eb5e736cebb9e74c8c541c8fcf9" id="005F">
+            <serviceEntry serviceVersion="1.0.0" id="aed_app"/>
+            <serviceEntry serviceVersion="1.0" id="service_dsi_hybridradio"/>
+            <serviceEntry serviceVersion="1.0.0" id="navigationharman"/>
+            <serviceEntry serviceVersion="1.0.0" id="hmi">
+                <backendInfo name="hasDestinationImportBrowserShortcut">false</backendInfo>
+                <backendInfo name="hasRequestLocationEfi">false</backendInfo>
+                <backendInfo name="hasTelematicsUnit"/>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="service_trafficlight"/>
+            <serviceEntry serviceVersion="1.0.0" id="simcardalert">
+                <backendInfo name="version">1.0.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="dataCollector">
+                <backendInfo name="type">v-can</backendInfo>
+                <backendInfo name="version">1.0</backendInfo>
+            </serviceEntry>
+            <crqm/>
+            <serviceEntry serviceVersion="1.0" id="service_dsi_operatorcall"/>
+            <serviceEntry serviceVersion="1.0.0" id="online_metadata_service_app">
+                <backendInfo name="version">1.0.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="vehicleConf_v1">
+                <codedServiceState>Coded</codedServiceState>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="versioncollector">
+                <backendInfo name="version">1.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion=" 1.0" id="hasRequestLocationEfi"/>
+            <serviceEntry serviceVersion=" 1.0" id="hasDestinationImportBrowserShortcut"/>
+            <serviceEntry serviceVersion="1.0.0" id="service_browser"/>
+            <serviceEntry serviceVersion="1.0" id="service_esim"/>
+            <supportedJobs>
+                <canprocessjobs>true</canprocessjobs>
+                <jobtype>
+                    <id>NotifyCustomerDataPlanJobMIBp</id>
+                    <serviceVersion>v1_1_0</serviceVersion>
+                    <xsd>notifyCustomerDataplanJobMIBp_v1_1_0</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>cancelUpdateJob</id>
+                    <serviceVersion>v1_1_1</serviceVersion>
+                    <xsd>cancelUpdateJob_v1_1_1</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>dataCollectorConfigUpdateJob</id>
+                    <serviceVersion>v1_0_0</serviceVersion>
+                    <xsd>dataCollectorConfigUpdateJob_v1_1_0</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>echoJob</id>
+                    <serviceVersion>v1</serviceVersion>
+                    <xsd>echoJob_v1_0_0</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>reInitiateActivationJob</id>
+                    <serviceVersion>v1_1_1</serviceVersion>
+                    <xsd>clientCertJobs_v1_1_1</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>sendLocalServiceStateListJob</id>
+                    <serviceVersion>v1_1_0</serviceVersion>
+                    <xsd>localServiceStateJob_v1_1_0</xsd>
+                </jobtype>
+                <jobtype>
+                    <id>updateJob</id>
+                    <serviceVersion>v1_1_1</serviceVersion>
+                    <xsd>updateJob_v1_1_1</xsd>
+                </jobtype>
+            </supportedJobs>
+            <serviceEntry serviceVersion="1.0.0" id="OnlineJobService">
+                <backendInfo name="version">1.0.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="service_onlinesds"/>
+            <serviceEntry serviceVersion="1.0" id="csproxy"/>
+            <serviceEntry serviceVersion="1.0" id="service_dsi_onlineradio"/>
+            <serviceEntry serviceVersion="1.0.0" id="hotspotwlan">
+                <backendInfo name="version">1.0.0</backendInfo>
+            </serviceEntry>
+            <firmwareUpdate>
+                <diagnosticAddresses>
+                    <diagnosticAddress>005F</diagnosticAddress>
+                </diagnosticAddresses>
+                <diffVersion>1.2</diffVersion>
+                <flashManager>MIB3MainUnit_enabled</flashManager>
+                <serviceVersion>OUS3</serviceVersion>
+            </firmwareUpdate>
+            <serviceEntry serviceVersion="1.0" id="RemoteUpdate">
+                <backendInfo name="version">1.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="esosearch"/>
+            <serviceEntry serviceVersion="1.0.0" id="siriusxm">
+                <backendInfo name="version">1.0.0</backendInfo>
+            </serviceEntry>
+            <serviceEntry serviceVersion="1.0" id="service_dsi_destimport"/>
+            <serviceEntry serviceVersion="1.0" id="service_dsi_container"/>
+            <serviceEntry serviceVersion="1.0.0" id="navigationhere"/>
+            <ecuCapability swVersion="TEST_H_ER_G45S_TS_1835509"/>
+            <ownerVerification/>
+            <vehicle/>
+            <region>ER</region>
+            <ECUGeneration>MIB3TI</ECUGeneration>
+            <authentication>
+                <methods>
+                    <BEARER/>
+                    <DIGEST/>
+                </methods>
+                <realms>
+                    <AudiT0Realm/>
+                    <AudiT1Realm/>
+                    <AudiT21Realm/>
+                </realms>
+            </authentication>
+            <navigationhere>
+                <serviceVersion>1.0.0</serviceVersion>
+            </navigationhere>
+            <onlineApplication>
+                <revision>rev3</revision>
+            </onlineApplication>
+            <serviceEntry serviceVersion="v3" id="users"/>
+            <serviceEntry serviceVersion="1.0.0" id="vehiclehealth">
+                <codedServiceState>Coded</codedServiceState>
+            </serviceEntry>
+            <serviceEntry serviceVersion="2.1.0" id="LocalServiceDisabling"/>
+            <serviceEntry serviceVersion="v1" id="rur"/>
+            <notification/>
+            <serviceEntry serviceVersion="1.0" id="service_core"/>
+        </installedBase>
+    </installedBaseCollection>
+</installedBaseCollection>

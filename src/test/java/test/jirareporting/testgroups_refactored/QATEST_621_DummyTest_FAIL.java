@@ -1,0 +1,59 @@
+/**
+ * 
+ */
+package test.jirareporting.testgroups_refactored;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.BeforeEach;
+import de.sulzer.model.IJson;
+import de.sulzer.model.ItemEvidence;
+import de.sulzer.model.util.ConstantsTestResult;
+import test.jirareporting.abstractions.AbstractUnitTest;
+
+/**
+ * @author Bege
+ *
+ */
+class QATEST_621_DummyTest_FAIL extends AbstractUnitTest {
+
+	/**
+	 */
+	@BeforeEach
+	protected void setUp() {
+		
+		this.initTestContainer(2); // test has only three test steps
+		
+	}
+
+	@Override
+	protected void testHook() throws Exception {
+
+		// PASS/FAIL/TODO not yet to set
+
+		/*
+		 * setting test results for steps
+		 */
+
+		// test step 1
+		this.getTestContainer().addTestStep(ConstantsTestResult.PASS, "comment 1", new ArrayList<ItemEvidence>());
+
+		// test step 2
+		this.testMehtod();
+		this.getTestContainer().addTestStep(ConstantsTestResult.PASS, "comment 2", new ArrayList<ItemEvidence>());
+
+		// test step 3
+		this.getTestContainer().addTestStep(ConstantsTestResult.PASS, "comment 3", new ArrayList<ItemEvidence>());
+
+	}
+
+	public void testMehtod() throws Exception {
+		throw new Exception();
+	}
+
+	@Override
+	protected void tearDownHook() throws Exception, Error, Throwable {
+		
+	}
+	
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <oudr:resourceRequest xmlns:oudr="http://www.vw.com/mbb/onlineUpdateDownloadResourcesRequest" xmlns:oum="http://www.vw.com/mbb/onlineUpdateModule">
+  <oudr:requestedModules>
+  <oum:module>
+  <oum:ecuRef>8107</oum:ecuRef>
+  <oum:parent>8107</oum:parent>
+  <oum:name>C0</oum:name>
+  <oum:hwi>X01</oum:hwi>
+  <oum:swv>6095</oum:swv>
+  </oum:module>
+ </oudr:requestedModules>
+ </oudr:resourceRequest>

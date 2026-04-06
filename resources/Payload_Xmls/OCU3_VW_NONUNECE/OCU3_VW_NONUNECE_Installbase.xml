@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sm:installedBaseCollection xmlns:sm="http://www.vw.com/mbb/serviceManagement" tpeg="http://www.tisa.org/THTTP">
+  <sm:installedBase sm:checksum="c2767a8df687762a0d316f9d234d75630b5c9394" sm:id="0075">
+    <p0:authentication xmlns:p0="http://www.vw.com/mbb/serviceManagement">
+      <p0:methods>
+        <p0:CERTIFICATE/>
+        <p0:BEARER/>
+      </p0:methods>
+      <p0:realms>
+        <p0:AudiT0Realm/>
+        <p0:AudiT1Realm/>
+        <p0:T1CAIRealm/>
+      </p0:realms>
+    </p0:authentication>
+    <p0:crqm xmlns:p0="http://www.vw.com/mbb/serviceManagement">NoD</p0:crqm>
+    <p0:ecuCapability xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:partNumber="5WA035284  " p0:swVersion="X016"/>
+    <p0:ECUGeneration xmlns:p0="http://www.vw.com/mbb/serviceManagement">OCU3</p0:ECUGeneration>
+    <p0:notification xmlns:p0="http://www.vw.com/mbb/serviceManagement"/>
+    <p0:onlineRevision xmlns:p0="http://www.vw.com/mbb/serviceManagement">
+      <p0:rev>TestRev</p0:rev>
+    </p0:onlineRevision>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rbatterycharge_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="allowWirelessCharging">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>allowWirelessChargingJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="chargingModeSelection">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>chargingModeSelectionJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="getAllChargingReport">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>getAllChargingReportJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="getBatteryStateReport">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>getBatteryStateReportJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="resetRemoteBatteryChargingToDefault">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>resetRemoteBatteryChargingToDefaultJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="setBatteryChargingSettings">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>setBatteryChargingSettingsJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="startBatteryCharging">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>startBatteryChargingJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="stopBatteryCharging">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>stopBatteryChargingJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="unlockChargePlug">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>unlockChargePlugJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="dealerappoint_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="triggerDealerMaintenanceJob">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>triggerDealerMaintenanceJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="cc_breakdown_v2" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="triggerBreakdownCallJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>triggerBreakdownCallJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="uota_v1" p0:serviceVersion="1.0">
+        <p0:codedServiceState>Coded</p0:codedServiceState>
+        <p0:jobEntry p0:id="cancelUpdateJob">
+            <p0:payloadSchema>cancelUpdateJob_v1_0_1</p0:payloadSchema>
+            <p0:protocol>MQTT</p0:protocol>
+        </p0:jobEntry>
+        <p0:jobEntry p0:id="updateJob">
+            <p0:payloadSchema>updateJob_v1_0_1</p0:payloadSchema>
+            <p0:protocol>MQTT</p0:protocol>
+        </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="updatetruststore" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="updateTruststoreJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>updateTruststoreJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="geofence_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="activateGeoFencing">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>geoFencing_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="deactivateGeoFencing">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>geoFencing_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rclima_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="getAllClimatisationSettingsReport">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>getAllClimatisationSettingsReportJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="resetRemotePreTripClimaToDefault">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>resetRemotePreTripClimaToDefaultJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:jobEntry p0:id="setClimatisationSettings">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>setClimatisationSettingsJob_v1_0_2</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:jobEntry p0:id="startClimatisation">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>startClimatisationJob_v1_0_2</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:operationEntry p0:id="startWindowHeating">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>startWindowHeatingJob_v1_0_2</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:jobEntry p0:id="stopClimatisation">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>stopClimatisationJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:operationEntry p0:id="stopWindowHeating">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>stopWindowHeatingJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="timerprogramming_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="getAllDepartureTimeReport">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>getAllDepartureTimeReportJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="resetRemoteDepartureTimeToDefault">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>resetRemoteDepartureTimeToDefaultJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="setDepartureTimeBasicSettings">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>setDepartureTimeBasicSettingsJob_v1_0_2</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="setDepartureTimersAndProfiles">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>setDepartureTimersAndProfiles_V1_0_2</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rhonk_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="activateHonkAndFlash">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>honkAndFlash_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rur" p0:serviceVersion="v1">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="updateVehicleUsersJob">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>updateVehicleUsersJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="vtsControl">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>vtsControlJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="sendLocalServiceStateList">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>sendLocalServiceStateListJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rvt_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="activateVehicleTracking">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>vehicleTracking_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="deactivateVehicleTracking">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>vehicleTracking_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rtm_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="RealTimeMonitoringConfigurationJob">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>realTimeMonitoringConfigurationJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="rlu_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="remoteLockJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>rlu_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:jobEntry p0:id="remoteUnlockJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>rlu_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="vehicletelemetry_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="sendVehicleStatus">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>rvs_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="speedalert_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="activateSpeedAlert">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>speedAlert_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="deactivateSpeedAlert">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>speedAlert_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="dwap" p0:serviceVersion="v1"/>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="RootCertificate" p0:serviceVersion="23adf">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="ConnectionAtClamp15On" p0:serviceVersion="services_v1"/>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="mobilekey_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="mobileDeviceKeyCountJob">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>mobileDeviceKeyCountJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="mobileDeviceKeyVtanNotificationJob">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>mobileDeviceKeyVtanNotificationJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="remoteDataExchange">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>remoteDataExchangeJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="triggerMobileDeviceKeyVehicleStatus">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>triggerMobileDeviceKeyVehicleStatusJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="mvs_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="setFleetMode">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>setFleetModeJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="mvsgeo_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="mobilityVehicleStatusGeoConf">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>mobilityVehicleStatusGeoConfJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="sendMobilityVehicleStatusGeo">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>sendMobilityVehicleStatusGeoJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="sendMobilityVehicleStatus">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>sendMobilityVehicleStatusJob_v1_0_1</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="zieleinspeisung_v2" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:operationEntry p0:id="importPOI">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>poiImport_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="powerManagementConf_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="setPowerManagementParameters">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>powerManagementConf_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="communicationConf_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="setCommunicationParameters">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>communicationConf_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:operationEntry p0:id="getCommunicationParameters">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>communicationConf_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+      <p0:operationEntry p0:id="getCommunicationProfile">
+        <p0:payloadFormat>EXI</p0:payloadFormat>
+        <p0:payloadSchema>communicationConf_v1_0_0</p0:payloadSchema>
+        <p0:protocol>HTTP</p0:protocol>
+      </p0:operationEntry>
+    </p0:serviceEntry>
+    <p0:serviceEntry xmlns:p0="http://www.vw.com/mbb/serviceManagement" p0:id="fod_v1" p0:serviceVersion="1.0">
+      <p0:codedServiceState>Coded</p0:codedServiceState>
+      <p0:jobEntry p0:id="fodFetchFecJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>fodFetchFecJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+      <p0:jobEntry p0:id="fodReportStateJob">
+        <p0:payloadFormat>XML</p0:payloadFormat>
+        <p0:payloadSchema>fodReportStateJob_v1_0_0</p0:payloadSchema>
+        <p0:protocol>MQTT</p0:protocol>
+      </p0:jobEntry>
+    </p0:serviceEntry>
+    <p0:supportsMQTT xmlns:p0="http://www.vw.com/mbb/serviceManagement">true</p0:supportsMQTT>
+    <p0:wakeup xmlns:p0="http://www.vw.com/mbb/serviceManagement">
+      <p0:SMS/>
+    </p0:wakeup>
+  </sm:installedBase>
+</sm:installedBaseCollection>

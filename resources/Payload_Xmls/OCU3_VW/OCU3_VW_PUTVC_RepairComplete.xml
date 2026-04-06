@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <vc:onlineUpdateVehicleConfiguration xmlns:vc="http://www.vw.com/mbb/onlineUpdateVehicleConfiguration">
+  <vc:controllerInfoList>
+   <vc:controllerInfo vc:fazitId="LG5-LGH12.05.2010041277" vc:hwnumber="5WA035284C" vc:hwv="H12" vc:masterDA="75" vc:name="OCU3" vc:swnumber="5WA035284C" vc:swv="0135"/>
+    </vc:controllerInfoList>
+     <vc:releaseInfoList>
+      <vc:releaseInfo vc:release="0135" vc:variant="5WA035284C"/>
+       </vc:releaseInfoList>
+        <vc:softwareModuleInfoList>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0001" vc:parent="75" vc:swv="0114"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0002" vc:parent="75" vc:swv="X004"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0003" vc:parent="75" vc:swv="0001"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0004" vc:parent="75" vc:swv="0107"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0007" vc:parent="75" vc:swv="X007"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0008" vc:parent="75" vc:swv="X004"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="0009" vc:parent="75" vc:swv="X035"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="000A" vc:parent="75" vc:swv="X014"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="000B" vc:parent="75" vc:swv="X011"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="000C" vc:parent="75" vc:swv="X005"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="000E" vc:parent="75" vc:swv="X006"/>
+         <vc:softwareModuleInfo vc:hwi="H12" vc:name="000F" vc:parent="75" vc:swv="0001"/>
+         </vc:softwareModuleInfoList>
+         <vc:ivdProgHashSHA256List>
+         <vc:ivdProgHashSHA256 vc:id="0075" vc:hash="27f3004b76cd3a3a9db61ba8e7dc82f9b61d71ed5f2ef6ff5a80c348fb5bee85"/>
+         </vc:ivdProgHashSHA256List>
+ </vc:onlineUpdateVehicleConfiguration>
+

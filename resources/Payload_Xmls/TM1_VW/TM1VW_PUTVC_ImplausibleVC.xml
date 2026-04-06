@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vc:onlineUpdateVehicleConfiguration xmlns:vc="http://www.vw.com/mbb/onlineUpdateVehicleConfiguration">
+    <vc:controllerInfoList>
+        <vc:controllerInfo vc:fazitId="LG5-LGH20.06.2110070479" vc:hwnumber="5QS035741  " vc:hwv="X01" vc:masterDA="XXYY" vc:name="TM" vc:slaveDA="" vc:swnumber="5QS035741  " vc:swv="X328"/>
+    </vc:controllerInfoList>
+    <vc:ivdProgHashSHA256List>
+        <vc:ivdProgHashSHA256 vc:hash="NULL" vc:id="8107"/>
+    </vc:ivdProgHashSHA256List>
+    <vc:releaseInfoList>
+        <vc:releaseInfo vc:release="0024_0024_0024_0024" vc:variant="5QS035741  "/>
+    </vc:releaseInfoList>
+    <vc:softwareModuleInfoList>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="20" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="30" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="40" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="60" vc:parent="8107" vc:swv="3175"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="70" vc:parent="8107" vc:swv="3225"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="80" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="90" vc:parent="8107" vc:swv="3155"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="A0" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="B0" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="C0" vc:parent="8107" vc:swv="3285"/>
+        <vc:softwareModuleInfo vc:hwi="X01" vc:name="D0" vc:parent="8107" vc:swv="3155"/>
+    </vc:softwareModuleInfoList>
+</vc:onlineUpdateVehicleConfiguration>

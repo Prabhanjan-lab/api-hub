@@ -1,0 +1,32 @@
+{
+    "campaignNumber": "campaignnumber",
+    "campaignTitle": "campaigntitle",
+    "comment": "IT-SULZER: TA",
+    "username": "Testautomatisierung Sulzer",
+    "used": false,
+    "criterions": [
+        {
+            "id": "1",
+            "criterionId": "01",
+            "criterionTitle": "Step-01",
+            "numberOfVehicles": "0",
+            "used": false,
+            "vins": [
+                "BVWSUL9CB23101927"
+            ],
+            "otaUpdate": true
+        }
+    ],
+    "vehicleCountryReleases": [
+        {
+            "countryCode": "DEU",
+            "releaseDate": "1521985600000",
+            "approvalStatus": "ACTIVE"
+        },
+        {
+            "countryCode": "USA",
+            "releaseDate": "1521985600000",
+            "approvalStatus": "ACTIVE"
+        }
+    ]
+}

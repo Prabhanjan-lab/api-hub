@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<onlineUpdateVehicleConfiguration xmlns:vc="http://www.vw.com/mbb/onlineUpdateVehicleConfiguration"> 
+
+        <controllerInfoList>                  
+
+          <controllerInfo fazitId="WG8-LGM18.01.2300011521" hwnumber="571035816" hwv="H09" masterDA="005F" name="MIB3OI" swnumber="572035816" swv="2424"/>              
+
+        </controllerInfoList>           
+
+        <releaseInfoList>                  
+
+          <releaseInfo release="MEI3_CN_VW37W_E3650J" variant="FM3-H-*-*-*-EU-AU-*-DE"/>         
+
+        </releaseInfoList>
+        <softwareModuleInfoList>                  
+
+          <softwareModuleInfo hwi="31" name="MCU_application1" parent="MIB3OI_MCU.MCU" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="CPU_application1" parent="MIB3OI_CPU.CPU" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="OIWLarge_EU_application1" parent="MIB3OI_HMI.OIWLarge_EU" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="ETHERNET_SWITCH_application1" parent="MIB3OI_ETHERNET_SWITCH.ETHERNET_SWITCH" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="Mercury_application1" parent="MIB3OI_Mercury.Mercury" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="version_GP_application1" parent="MIB3OI_SPEECH.version_GP" swv="1.424.4"/>		               
+
+          <softwareModuleInfo hwi="31" name="common_application1" parent="MIB3OI_SPEECH.common" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="bul_BUL_application1" parent="MIB3OI_SPEECH.bul_BUL" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="ces_CZE_application1" parent="MIB3OI_SPEECH.ces_CZE" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="dan_DNK_application1" parent="MIB3OI_SPEECH.dan_DNK" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="deu_DEU_application1" parent="MIB3OI_SPEECH.deu_DEU" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="dut_NLD_application1" parent="MIB3OI_SPEECH.dut_NLD" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="eng_GBR_application1" parent="MIB3OI_SPEECH.eng_GBR" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="fin_FIN_application1" parent="MIB3OI_SPEECH.fin_FIN" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="fra_FRA_application1" parent="MIB3OI_SPEECH.fra_FRA" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="gre_GRC_application1" parent="MIB3OI_SPEECH.gre_GRC" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="hrv_HRV_application1" parent="MIB3OI_SPEECH.hrv_HRV" swv="1.424.4"/>                 
+
+          <softwareModuleInfo hwi="31" name="hun_HUN_application1" parent="MIB3OI_SPEECH.hun_HUN" swv="1.424.4"/>                 
+
+          <softwareModuleInfo hwi="31" name="ita_ITA_application1" parent="MIB3OI_SPEECH.ita_ITA" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="nor_NOR_application1" parent="MIB3OI_SPEECH.nor_NOR" swv="1.424.4"/>                  
+
+          <softwareModuleInfo hwi="31" name="pol_POL_application1" parent="MIB3OI_SPEECH.pol_POL" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="por_PRT_application1" parent="MIB3OI_SPEECH.por_PRT" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="ron_ROM_application1" parent="MIB3OI_SPEECH.ron_ROM" swv="1.424.4"/>       
+
+          <softwareModuleInfo hwi="31" name="rus_RUS_application1" parent="MIB3OI_SPEECH.rus_RUS" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="slk_SVK_application1" parent="MIB3OI_SPEECH.slk_SVK" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="spa_ESP_application1" parent="MIB3OI_SPEECH.spa_ESP" swv="1.424.4"/>         
+
+          <softwareModuleInfo hwi="31" name="swe_SWE_application1" parent="MIB3OI_SPEECH.swe_SWE" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="tur_TUR_application1" parent="MIB3OI_SPEECH.tur_TUR" swv="1.424.4"/>       
+
+          <softwareModuleInfo hwi="31" name="ukr_UKR_application1" parent="MIB3OI_SPEECH.ukr_UKR" swv="1.424.4"/>
+
+          <softwareModuleInfo hwi="31" name="TNR_application1" parent="MIB3OI_TNR.TNR" swv="1.424.4"/>
+
+          <softwareModuleInfo hwi="31" name="NAV_DB_application1" parent="MIB3OI_NAV_DB.NAV_DB" swv="1.20.1"/>        
+
+          <softwareModuleInfo hwi="31" name="script_installer" parent="MIB3OI_PRE_SCRIPT.PRE_SCRIPT" swv="1.424.4"/>        
+
+          <softwareModuleInfo hwi="31" name="script_installer" parent="MIB3OI_POST_SCRIPT.POST_SCRIPT" swv="1.424.4"/>   
+
+        </softwareModuleInfoList>
+
+</onlineUpdateVehicleConfiguration>

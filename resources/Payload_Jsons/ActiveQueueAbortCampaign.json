@@ -1,0 +1,16 @@
+{
+    "activity" : {
+        "operationCode" : "",
+        "description" : "",
+        "referenceId" :""
+    },
+	
+    "campaignInfo" : {
+        "campaignId" : "#!activeCampaign!#",
+        "criterionId" : "#!activeCriterion!#"
+    },
+    "error" : {
+        "code" : "",
+        "description" : ""
+      }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resourceRequest>
+  <requestedModules>
+    <module>
+      <parent>ONUP</parent>
+      <name>ui</name>
+      <hwi>40</hwi>
+      <swv>1.0.0</swv>
+    </module>
+  </requestedModules>
+</resourceRequest>

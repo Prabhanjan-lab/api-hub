@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sm:installedBaseCollection xmlns:sm="http://www.vw.com/mbb/serviceManagement" tpeg="http://www.tisa.org/THTTP">
+  <sm:installedBase sm:checksum="#!checksumme!#" sm:id="0075">
+    <sm:authentication>
+      <sm:methods>
+        <sm:DIGEST/>
+        <sm:CERTIFICATE/>
+        <sm:BEARER/>
+      </sm:methods>
+      <sm:realms>
+        <sm:AudiT0Realm/>
+        <sm:AudiT1Realm/>
+        <sm:T1CAIRealm/>
+      </sm:realms>
+    </sm:authentication>
+    <sm:crqm>NoD</sm:crqm>
+    <sm:ecuCapability sm:partNumber="4K2907468B " sm:swVersion="X316"/>
+    <sm:ECUGeneration>OCU3</sm:ECUGeneration>
+    <sm:firmwareUpdate>
+      <sm:diagnosticAddresses>
+        <sm:diagnosticAddress>0075</sm:diagnosticAddress>
+      </sm:diagnosticAddresses>
+      <sm:diffVersion>None</sm:diffVersion>
+      <sm:flashManager>OCU3_enabled</sm:flashManager>
+      <sm:serviceVersion>OUS3</sm:serviceVersion>
+    </sm:firmwareUpdate>
+    <sm:notification/>
+    <sm:serviceEntry sm:id="vehicles_v1_cai" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="registration">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>registerAndPairing_v2_0_2</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="RootCertificate" sm:serviceVersion="23adf">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="services_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="notifySLJob">
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="downloadSL">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="uploadIB">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>installedBase_v3_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="jobs_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="download">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="ack">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>jobListAcknowledge_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="parseError">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="updatetruststore" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="updateTruststoreJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>updateTruststoreJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="downloadCert">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="mbboauth_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="requestToken">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="communicationConf_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="setCommunicationParameters">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>communicationConf_v2_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="downloadCCP">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>communicationConf_v2_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="powerManagementConf_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="setPowerManagementParameters">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>powerManagementConf_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>powerManagementConf_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rur" sm:serviceVersion="v1"/>
+    <sm:serviceEntry sm:id="vehicleusers_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="updateVehicleUsersJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>updateVehicleUsersJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="readVehicleUserList">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="vehicleusers_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="owner_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="fpinChallenge">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="nominated">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="spin_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="challenge">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="token">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>securityPinAuthentication_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="spin_v3" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="registerSpinKey">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>securityPinKey_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="retrieveSpin">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="prepareSpinValidation">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="validateSpin">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>securityPinValidation_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="prepareExtAuth">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="completeExtAuth">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>securityPinAuthentication_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="devicereset_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="reset">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="LocalServiceDisabling" sm:serviceVersion="1.0.0"/>
+    <sm:serviceEntry sm:id="lsd_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="localServiceState">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>localServiceStateListRequest_v2_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="license_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="ackPopup">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="cc_breakdown_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="triggerBreakdownCallJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>triggerBreakdownCallJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="importPOI">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>poiImport_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>service_Breakdown_Call_MBB_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="dealerappoint_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="triggerDealerMaintenanceJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>triggerDealerMaintenanceJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>dealerMaintenance_v1_0_2</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="vehicletelemetry_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="sendVehicleStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rvsRdk_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="vehicleStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rvsRdk_v1_0_1</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="carfinder_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="statusreport_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rlu_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="remoteLockJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rlu_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="remoteUnlockJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rlu_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="identification">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fazit4mycar_v1_0_1</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="result">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fazit4mycar_v1_0_1</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="geofence_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="activateGeoFencing">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>geoFencing_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="deactivateGeoFencing">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>geoFencing_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="violation">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>geoFencing_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="speedalert_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="activateSpeedAlert">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>speedAlert_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="deactivateSpeedAlert">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>speedAlert_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="violation">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>speedAlert_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="valetalert_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rheating_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="departureTimeError">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="departureTimersAndProfilesReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>departureTimersAndProfilesReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="settingsReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationSettingsReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="stateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationStateReportRequest_v1_0_4</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="temperatureReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationTemperatureReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:jobEntry sm:id="startClimatisation">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>startClimatisationJob_v1_0_2</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rclima_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="getAllClimatisationSettingsReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>getAllClimatisationSettingsReportJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="setClimatisationSettings">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>setClimatisationSettingsJob_v1_0_2</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="startClimatisation">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>startClimatisationJob_v1_0_2</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="stopClimatisation">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>stopClimatisationJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="settingsReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationSettingsReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="stateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationStateReportRequest_v1_0_4</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="temperatureReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>climatisationTemperatureReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="timerprogramming_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="getAllDepartureTimeReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>getAllDepartureTimeReportJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="setDepartureTimersAndProfiles">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>setDepartureTimersAndProfiles_v1_0_3</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="departureTimeError">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="departureTimersAndProfilesReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>departureTimersAndProfilesReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="departureTimeSettingsReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>departureTimeBasicSettingsReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rvt_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="activateVehicleTracking">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>vehicleTracking_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="deactivateVehicleTracking">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>vehicleTracking_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rbatterycharge_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="allowAutomaticPlugUnlockJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rbcAllowAutomaticPlugUnlockJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="allowChargingJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>allowWirelessChargingJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="chargingModeSelectionJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>chargingModeSelectionJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="getAllChargingReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>getAllChargingReportJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="getBatteryStateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>getBatteryStateReportJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="resetRemoteBatteryChargingToDefault">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>resetRemoteBatteryChargingToDefaultJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="setBatteryChargingSettings">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>setBatteryChargingSettingsJob_v1_0_2</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="startBatteryCharging">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>startBatteryChargingJob_v1_0_2</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="stopBatteryCharging">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>stopBatteryChargingJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="batteryStateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>batteryStateReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="chargingSettingsReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>chargingSettingsReportRequest_v1_0_3</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="chargingStateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>chargingStateReportRequest_v1_0_4</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="trip_statistic_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="vehicleTripData">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>tripStat_v1_0_2</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="dwap" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="notification">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>dwaPushNotification_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rhonk_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="activateHonkAndFlash">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>honkAndFlash_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="error">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>honkAndFlash_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="mobilekey_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="remoteDataExchange">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>remoteDataExchangeJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="triggerMobileDeviceKeyVehicleStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>triggerMobileDeviceKeyVehicleStatusJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="mobileDeviceKeyCount">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobileDeviceKeyCountJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="mobileDeviceKeyVtanNotification">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobileDeviceKeyVtanNotificationJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="keyCount">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="remoteDataExchange">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>remoteDataExchangeRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="remoteDataExchangeResult">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>remoteDataExchangeResultRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="retrieveVTAN">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>retrieveVTANRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="vehicleStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobileDeviceKeyVehicleStatusRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="mvs_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="sendMobilityVehicleStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>sendMobilityVehicleStatusJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="setFleetMode">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>setFleetModeJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>sendMobilityVehicleStatusRequest_v1_0_1</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="fleetModeAck">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>setFleetModeAcknowledgeRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="mvsgeo_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="mobilityVehicleStatusGeoConf">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobilityVehicleStatusGeoConfJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="sendMobilityVehicleStatusGeo">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>sendMobilityVehicleStatusGeoJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="config">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobilityVehicleStatusGeoConfRequest_v1_0_1</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>mobilityVehicleStatusGeoRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="uota_download_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="files">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="uota_url_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="packages">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="uota_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="updateJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>updateJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="cancelUpdateJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>cancelUpdateJob_v1_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="advice">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="result">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateRepairResultRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateStatusUpdatesRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="uota_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="onlineUpdateJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateJob_v2_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="onlineUpdateCancelJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateCancelJob_v2_0_1</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="advice">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="result">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateRepairResultRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="sfLogin">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateSpecialFunctionLoginRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="status">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateStatusRequest_v2_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="tuningInfo">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateTuningInfoRequest_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="vehicleConf_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="hash">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="vehicleConf">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>onlineUpdateVehicleConfiguration_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="vehicleConf_v2" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="hash">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="vehicleConf">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>vehicleConfiguration_v2_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="rprofilesandtimer_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="rptSetTimerJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rptSetTimerJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="timerStateReport">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>rptTimerStateReport_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="errorReport">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="fod_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="fodFetchFecJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fodFetchFecJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="fodReportStateJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fodReportStateJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="checkState">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="fetchFec">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="reportState">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fodState_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="sendActivationResult">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>fodActivationResult_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="authenticTimeMaster" sm:serviceVersion="1.0"/>
+    <sm:serviceEntry sm:id="authtime_v1" sm:serviceVersion="1.0">
+      <sm:operationEntry sm:id="requestTimestamp">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>authenticTimestamp_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="odc_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="confAvailJob">
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="confReadyJob">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_confReadyJob_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="dataPullJob">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_dataPullJob_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="deactCampaignJob">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_deactCampaignJob_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="confReq">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="confStatus">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_status_V1M0B0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="confDownload">
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="dataAnonym_0">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_data_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="dataAnonym_1">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_data_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="dataPseudonym_0">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_data_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="dataPseudonym_1">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_data_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="operationalStatus">
+        <sm:payloadFormat>ProtoBuf3</sm:payloadFormat>
+        <sm:payloadSchema>odc_v1_status_V1M0B0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="pnc_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:jobEntry sm:id="pncInstallRootCertContainerJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncInstallRootCertContainerJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:jobEntry sm:id="pncCreateVehicleCertJob">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncCreateVehicleCertJob_v1_0_0</sm:payloadSchema>
+        <sm:protocol>MQTT</sm:protocol>
+      </sm:jobEntry>
+      <sm:operationEntry sm:id="createVehicleCert">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncCreateVehicleCertReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="deleteContractAck">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncDeleteContractAckReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="deleteVehicleKeyPairAck">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncDeleteVehicleKeyPairAckReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="installContractAck">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncInstallContractAckReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="installRootCertContainerAck">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncInstallRootCertContainerAckReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="reportUnknownRootCert">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncReportUnknownRootCertReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+      <sm:operationEntry sm:id="updateStatus">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncUpdateStatusReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="pncDownloadRCC_v1" sm:serviceVersion="1.0">
+      <sm:codedServiceState>Coded</sm:codedServiceState>
+      <sm:operationEntry sm:id="recvRootCertContainer">
+        <sm:payloadFormat>XML</sm:payloadFormat>
+        <sm:payloadSchema>pncRecvRootCertContainerReq_v1_0_0</sm:payloadSchema>
+        <sm:protocol>HTTP</sm:protocol>
+      </sm:operationEntry>
+    </sm:serviceEntry>
+    <sm:serviceEntry sm:id="ConnectionAtClamp15On" sm:serviceVersion="services_v1"/>
+    <sm:serviceEntry sm:id="zfas_tjp_v1" sm:serviceVersion="1"/>
+    <sm:supportsMQTT>
+      <sm:mqttVersion>3.1.1</sm:mqttVersion>
+      <sm:wireMessageVersion>V1M0B2</sm:wireMessageVersion>
+    </sm:supportsMQTT>
+    <sm:vtsInfo>
+      <sm:vtsCapabilities>
+        <sm:supportsBackupBattery>true</sm:supportsBackupBattery>
+        <sm:supportsDoorLock>false</sm:supportsDoorLock>
+        <sm:supportsDWA>true</sm:supportsDWA>
+        <sm:supportsShockSensor>false</sm:supportsShockSensor>
+        <sm:supportsSpeedDegradation>true</sm:supportsSpeedDegradation>
+      </sm:vtsCapabilities>
+      <sm:vtsVersionInformation>
+        <sm:HardwareVersion>H02</sm:HardwareVersion>
+        <sm:SoftwareVersion>0000</sm:SoftwareVersion>
+      </sm:vtsVersionInformation>
+    </sm:vtsInfo>
+  </sm:installedBase>
+</sm:installedBaseCollection>

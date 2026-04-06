@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:installedBaseCollection xmlns:sm="http://www.vw.com/mbb/serviceManagement" tpeg="http://www.tisa.org/THTTP">
+<sm:installedBase xmlns:sm="http://www.vw.com/mbb/serviceManagement" sm:checksum="#!checksumme!#" sm:id="005F">
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="aed_app"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="updatetruststore_v2">
+    <sm:jobEntry sm:id="certificateupdate">
+      <sm:protocol>MQTT</sm:protocol>
+    </sm:jobEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="CertificateSwapper">
+    <sm:version>1.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="csproxy"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="datacollectorconf_v1">
+    <sm:jobEntry sm:id="dataCollectorConfigUpdateJob">
+      <sm:protocol>MQTT</sm:protocol>
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>dataCollectorConfigUpdateJob_v1_1_0</sm:payloadSchema>
+    </sm:jobEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="dataCollector">
+    <sm:type>v-can</sm:type>
+    <sm:version>1.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="esosearch"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="hmi">
+    <sm:hasDestinationImportBrowserShortcut>false</sm:hasDestinationImportBrowserShortcut>
+    <sm:hasRequestLocationEfi>false</sm:hasRequestLocationEfi>
+    <sm:hasTelematicsUnit></sm:hasTelematicsUnit>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="hotspotwlan">
+    <sm:version>1.0.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="mond_service_app"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="navigationharman"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="navigationhere"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="online_metadata_service_app">
+    <sm:version>1.0.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="OnlineJobService">
+    <sm:version>1.0.0</sm:version>
+  </sm:serviceEntry>
+  <sm:firmwareUpdate>
+    <sm:diagnosticAddresses>
+      <sm:diagnosticAddress>005F</sm:diagnosticAddress>
+    </sm:diagnosticAddresses>
+    <sm:diffVersion>1.2</sm:diffVersion>
+    <sm:flashManager>MIB3MainUnit_enabled</sm:flashManager>
+    <sm:serviceVersion>OUS3</sm:serviceVersion>
+  </sm:firmwareUpdate>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="uota_v1">
+    <sm:jobEntry sm:id="cancelUpdateJob">
+      <sm:protocol>MQTT</sm:protocol>
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>cancelUpdateJob_v1_1_1</sm:payloadSchema>
+    </sm:jobEntry>
+    <sm:jobEntry sm:id="updateJob">
+      <sm:protocol>MQTT</sm:protocol>
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>updateJob_v1_1_1</sm:payloadSchema>
+    </sm:jobEntry>
+    <sm:operationEntry sm:id="advice">
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+    <sm:operationEntry sm:id="result">
+      <sm:payloadFormat>EXI</sm:payloadFormat>
+      <sm:payloadSchema>onlineUpdateRepairResultRequest_v1_1_0</sm:payloadSchema>
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+    <sm:operationEntry sm:id="status">
+      <sm:payloadFormat>EXI</sm:payloadFormat>
+      <sm:payloadSchema>onlineUpdateStatusUpdatesRequest_v1_1_0</sm:payloadSchema>
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="uota_url_v1">
+    <sm:operationEntry sm:id="packages">
+      <sm:payloadFormat>EXI</sm:payloadFormat>
+      <sm:payloadSchema>onlineUpdateDownloadResourcesRequest_v1_1_0</sm:payloadSchema>
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="uota_download_v1">
+    <sm:operationEntry sm:id="files">
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="RemoteUpdate">
+    <sm:version>1.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion=" 1.0" sm:id="hasRequestLocationEfi"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion=" 1.0" sm:id="hasDestinationImportBrowserShortcut"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="service_browser"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_container"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_destimport"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_hybridradio"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_onlineradio"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_onlineweather"></sm:serviceEntry>
+  <sm:crqm></sm:crqm>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="ccpoi_v1">
+    <sm:jobEntry sm:id="notifyPOIUpdateJob">
+      <sm:protocol>MQTT</sm:protocol>
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>notifyPOIUpdateJob_v1_0_0</sm:payloadSchema>
+    </sm:jobEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_dsi_operatorcall"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="dataplan_v1">
+    <sm:jobEntry sm:id="notifyCustomerDataplanJob">
+      <sm:protocol>MQTT</sm:protocol>
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>notifyCustomerDataplanJob_v1_0_1</sm:payloadSchema>
+    </sm:jobEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_esim"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_mqtt"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_onlinesds"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_OTC"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_trafficlight"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="simcardalert">
+    <sm:version>1.0.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="siriusxm">
+    <sm:version>1.0.0</sm:version>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="vehicleConf_v1">
+    <sm:codedServiceState>Coded</sm:codedServiceState>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="versioncollector">
+    <sm:version>1.0</sm:version>
+  </sm:serviceEntry>
+  <sm:ecuCapability sm:swVersion="MHI3_ER_AU_E3969"></sm:ecuCapability>
+  <sm:serviceInformation sm:version="2.0" sm:name="enabler">
+    <sm:backendInfo sm:name="cBoxVersion">Y543</sm:backendInfo>
+  </sm:serviceInformation>
+  <sm:ownerVerification></sm:ownerVerification>
+  <sm:supportsMQTT>
+    <sm:mqttVersion>3.1.1</sm:mqttVersion>
+    <sm:wireMessageVersion>V1M0B2</sm:wireMessageVersion>
+  </sm:supportsMQTT>
+  <sm:vehicle></sm:vehicle>
+  <sm:region>ECE</sm:region>
+  <sm:ECUGeneration>MIB3TI</sm:ECUGeneration>
+  <sm:authentication>
+    <sm:methods>
+      <sm:BEARER></sm:BEARER>
+      <sm:DIGEST></sm:DIGEST>
+    </sm:methods>
+    <sm:realms>
+      <sm:AudiT0Realm></sm:AudiT0Realm>
+      <sm:AudiT1Realm></sm:AudiT1Realm>
+      <sm:AudiT21Realm></sm:AudiT21Realm>
+    </sm:realms>
+  </sm:authentication>
+  <sm:navigationhere>
+    <sm:serviceVersion>1.0.0</sm:serviceVersion>
+  </sm:navigationhere>
+  <sm:onlineApplication>
+    <sm:revision>rev3</sm:revision>
+  </sm:onlineApplication>
+  <sm:serviceEntry sm:serviceVersion="v3" sm:id="users"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0.0" sm:id="vehiclehealth">
+    <sm:codedServiceState>Coded</sm:codedServiceState>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="2.1.0" sm:id="LocalServiceDisabling"></sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="v1" sm:id="rur"></sm:serviceEntry>
+  <sm:notification></sm:notification>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="sto_v1">
+    <sm:codedServiceState>Coded</sm:codedServiceState>
+    <sm:jobEntry sm:id="predictionNotificationJob">
+      <sm:payloadFormat>XML</sm:payloadFormat>
+      <sm:payloadSchema>stoPredictionNotificationJob_v1_0_0</sm:payloadSchema>
+      <sm:protocol>MQTT</sm:protocol>
+    </sm:jobEntry>
+    <sm:operationEntry sm:id="serviceEventsVehicle">
+      <sm:protocol>HTTP</sm:protocol>
+    </sm:operationEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="services_v1">
+    <sm:codedServiceState>Coded</sm:codedServiceState>
+    <sm:jobEntry sm:id="notifySLJob">
+      <sm:protocol>MQTT</sm:protocol>
+    </sm:jobEntry>
+  </sm:serviceEntry>
+  <sm:serviceEntry sm:serviceVersion="1.0" sm:id="service_core">
+    <sm:WebappManagementVersion>39</sm:WebappManagementVersion>
+  </sm:serviceEntry>
+</sm:installedBase>
+</sm:installedBaseCollection>

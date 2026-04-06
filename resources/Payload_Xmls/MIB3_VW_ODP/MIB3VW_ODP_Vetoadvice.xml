@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vetoRepairAdvice>
+  <adviceCode>ABORT_REPAIR</adviceCode>
+  <targetModules>
+    <module>
+      <ecuRef>5F</ecuRef>
+      <parent>ONUP</parent>
+      <name>app</name>
+      <hwi>40</hwi>
+      <swv>1.0.0</swv>
+    </module>
+  </targetModules>
+</vetoRepairAdvice>

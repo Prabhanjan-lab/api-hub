@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vetoRepairAdvice>
+  <adviceCode>REPAIR_NECESSARY</adviceCode>
+<targetModules>
+    <moduleRef>
+      <module>
+        <parent>SpeechApp</parent>
+        <name>common</name>
+        <hwi>0</hwi>
+        <swv>302.1904.0</swv>
+      </module>
+      <fileSizes>
+        <fsDownload>190323931</fsDownload>
+        <fsUncompressed>248669363</fsUncompressed>
+      </fileSizes>
+    </moduleRef>
+    <moduleRef>
+      <module>
+        <parent>SpeechApp</parent>
+        <name>sr</name>
+        <hwi>0</hwi>
+        <swv>302.1904.0</swv>
+      </module>
+      <fileSizes>
+        <fsDownload>25002</fsDownload>
+        <fsUncompressed>341082</fsUncompressed>
+      </fileSizes>
+    </moduleRef>
+	<moduleRef>
+      <module>
+        <parent>SpeechApp</parent>
+        <name>common</name>
+        <hwi>0</hwi>
+        <swv>1.0.1</swv>
+      </module>
+      <fileSizes>
+        <fsDownload>25002</fsDownload>
+        <fsUncompressed>341082</fsUncompressed>
+      </fileSizes>
+    </moduleRef>
+	<moduleRef>
+      <module>
+        <parent>SpeechApp</parent>
+        <name>sr</name>
+        <hwi>0</hwi>
+        <swv>1.0.1</swv>
+      </module>
+      <fileSizes>
+        <fsDownload>25002</fsDownload>
+        <fsUncompressed>341082</fsUncompressed>
+      </fileSizes>
+    </moduleRef>
+  </targetModules>
+</vetoRepairAdvice>

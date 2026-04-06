@@ -1,0 +1,472 @@
+Request method:	POST
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012983/campaign/SU57/criterion/01/forceAbort
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTIsImV4cCI6MTc3NTQ3ODkxMiwidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.mQ1xmEPLGN_Dk-FO0v3To8jbToH_1JR1AT2zJABpc8VVfRXUiNtfyvmzDAoIpP-kKLfYTun9svaCpvHwm34-_KKX7BmEF63kNuDzFdNpg1TzRXrAgpddWxCJGTcMk6QSJcx89riCh_qEXaGCk-COX8k9krAdMJe3YRkm6z2jb3o4BSj7uJ_fDp2pZ8DHRkoPQytUILz4UWVjz5_BfRSLt-qfI1ZBNuIls3wRx-S9b18Xbx1WnJGnBiL6RyfqDU-ejIxxVfTF8lAHvtPFq5256-FrqaVsLUBzTG_yyxvNbU_kI1h1RU4hAZG1QC9T1dY1tRSp3Nkqk8Ct6sR50HRPYb4Qsh_CsvzsThISdX1vCUGxuEGD7ALVBJiHkMV9MC43mxjQ4fNREnq3LzjI7SM2SZX5MKvwhPZd46Vq2imDqgPpgdJpx5xvHFO2b7ek7RCGWfznXePvZQTPRVcBjx3mexPa1SqkO_VBNy8DO7i--RFRlwUfbCupuXwo16_nwTKzob6S3QN4QHiN3qmcuU_XtOzwmbHLIR_haEbUyiP9kDEbBxKEp5Tq6wZrIkyOWV7Q9fkuH9S0BJWHFAsKG9kb94GamvbWaGUHSn8cdluALP7Fp_OwI4LNFfLWI4SdQIHtVW6FGZW2z-fP_O3GceC-qpV0LZK_5cCDgXyjiLms2qY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "activity": {
+        "operationCode": "",
+        "description": "",
+        "referenceId": ""
+    },
+    "campaignInfo": {
+        "campaignId": "SU57",
+        "criterionId": "01"
+    },
+    "error": {
+        "code": "",
+        "description": ""
+    }
+}
+HTTP/1.1 200 
+Content-Length: 0
+Date: Mon, 06 Apr 2026 09:35:12 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adf17fb75c7e2a7d637088ef78f2946585f40bc7faef6d4a4a0fffd5ed9d1f5f8d112bd48193f7ecf0809db73bb2e91a99a; Path=/; Domain=.audi.vwg; Secure
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Request method:	GET
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012983/campaigns?type=concluded
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	type=concluded
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTIsImV4cCI6MTc3NTQ3ODkxMiwidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.mQ1xmEPLGN_Dk-FO0v3To8jbToH_1JR1AT2zJABpc8VVfRXUiNtfyvmzDAoIpP-kKLfYTun9svaCpvHwm34-_KKX7BmEF63kNuDzFdNpg1TzRXrAgpddWxCJGTcMk6QSJcx89riCh_qEXaGCk-COX8k9krAdMJe3YRkm6z2jb3o4BSj7uJ_fDp2pZ8DHRkoPQytUILz4UWVjz5_BfRSLt-qfI1ZBNuIls3wRx-S9b18Xbx1WnJGnBiL6RyfqDU-ejIxxVfTF8lAHvtPFq5256-FrqaVsLUBzTG_yyxvNbU_kI1h1RU4hAZG1QC9T1dY1tRSp3Nkqk8Ct6sR50HRPYb4Qsh_CsvzsThISdX1vCUGxuEGD7ALVBJiHkMV9MC43mxjQ4fNREnq3LzjI7SM2SZX5MKvwhPZd46Vq2imDqgPpgdJpx5xvHFO2b7ek7RCGWfznXePvZQTPRVcBjx3mexPa1SqkO_VBNy8DO7i--RFRlwUfbCupuXwo16_nwTKzob6S3QN4QHiN3qmcuU_XtOzwmbHLIR_haEbUyiP9kDEbBxKEp5Tq6wZrIkyOWV7Q9fkuH9S0BJWHFAsKG9kb94GamvbWaGUHSn8cdluALP7Fp_OwI4LNFfLWI4SdQIHtVW6FGZW2z-fP_O3GceC-qpV0LZK_5cCDgXyjiLms2qY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Date: Mon, 06 Apr 2026 09:35:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adfa462608574645bd4f9ddac79a8ab60d74834556d1d7144b6fb1bf6ece35e79ca6117a0fa6407852a14337ba3eb717b6f; Path=/; Domain=.audi.vwg; Secure
+Transfer-Encoding: chunked
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+{
+    "data": [
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TB8Q",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1743167827218,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TB8Q/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TB8Q/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TB8D",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1746617171438,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TB8D/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TB8D/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TB85",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1746700818899,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TB85/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TB85/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TB8V",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1748856783457,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TB8V/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TB8V/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TF17",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1750778611205,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TF17/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TF17/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TF2R",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1751380414268,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TF2R/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TF2R/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TF3S",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1756108205194,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TF3S/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TF3S/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TBBT",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1756118274648,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "Jobs: Cancel Update Job",
+                "jobId": "17783552",
+                "creationTime": 1756118274649
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TBBT/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TBBT/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TBBW",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1756120153410,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TBBW/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TBBW/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TBDA",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1759489256711,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "Jobs: Cancel Update Job",
+                "jobId": "18662026",
+                "creationTime": 1759489256712
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TBDA/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TBDA/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TBBV",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1764051614187,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TBBV/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TBBV/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU3",
+            "campaignId": "TF9Z",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1765893322712,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/TF9Z/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/TF9Z/criterion/01/rewind"
+            }
+        },
+        {
+            "id": null,
+            "vin": "BVWDSCSLZ24012983",
+            "domain": "OCU2",
+            "campaignId": "SU57",
+            "criterionId": "01",
+            "status": {
+                "code": "37",
+                "text": "CANCELED_BY_OPERATOR",
+                "creationTime": 1775468112649,
+                "detailCode": null
+            },
+            "notification": {
+                "type": "No job sent (yet)",
+                "jobId": null,
+                "creationTime": 0
+            },
+            "hrefs": {
+                "details": "/vehicle/BVWDSCSLZ24012983/campaign/SU57/criterion/01/details",
+                "rewind": "/vehicle/BVWDSCSLZ24012983/campaign/SU57/criterion/01/rewind"
+            }
+        }
+    ],
+    "recordsTotal": 13
+}
+Request method:	GET
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012985/campaigns?type=active
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	type=active
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTMsImV4cCI6MTc3NTQ3ODkxMywidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.ja30JEbQYvUUg_WPmupmXDh7ZK6CdMQtiYJWJ2cniQvMbKHAYSjU91QOVDXMqJV78iYRNyIrX1569W7PxZmvehaJ4YecQPmw1TUItza7gpFE2t44GYZbb2BlhGUuOUDSKbdGh5fYQ27c7a-Gfh4G6yy-EATWE-VKQTBgeO755Oc4keBUKLNP14QYQrozkUDT3hL63035_ICnNuihvY1EdKgINrcm6trwo5UEbEvX0lfFu2Vnzr53NE8bsSWbncvIDu9UIYb2kmOX7bICa4TYaFv7oATTC5OlwT4xtmYIXJrqoYhZomV4XHmVzXmkMRSZyZXgwsnidE9GgEy-CYTrnpUXjsuQ9cxO91MeD88g7_6TTI7lhYlbAqQ1VOYOSpuiDAeAjEZPdJK3FfrdNCd91u_vX0xfbU2ofw-96n2GYYrXMWrAKJIx74J_PsYuKt7ppm_tdqfGpELPwBtIkEwcN26ByS_mtvC0wgiPiIyYc9jZMAk0G1tO17yKOMocrG1GmLorPLN6ToWy2MNM96SbwR5CHK8vgnUj3ZuKnRZ9KuYS6yb5VbDF1lGW5oZfnxV0G1G3DvU3H0qsvbbAKK1kHU5TB195CMfcGdEVjdH26YNqdbq1kMuzy7wj4QgtteljOhyJgNabvwvcvPKjiQaMJ1TVz1ALFW4zSPInulbjhk4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Date: Mon, 06 Apr 2026 09:35:14 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adf058e7b402731b8c5d8910a930ea7b525b90cf99c75f658a119b7be2061e7cdf38c03bba0edaaadad48ca348ca5cf0ad6; Path=/; Domain=.audi.vwg; Secure
+Transfer-Encoding: chunked
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+{
+    "data": [
+        
+    ],
+    "recordsTotal": 0
+}
+Request method:	GET
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012985/campaigns?type=active
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	type=active
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTQsImV4cCI6MTc3NTQ3ODkxNCwidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.CBAuJ5mpQr-STNLOL9GmZigZL6TS41jJZJD3bkjsWdEqruOBdPSVtVBKnmllf3RSGZ4qjvnNj18zmlCUWYPrxj_7qBnHkr-UFjvJ2v7FTTn8lhBIJJxscYKtFDklPF-X-qNK_8tm8OXDrnwDnz1sBz7ll1XMB1XTdEFHrvYCT3bUnt3k-GMLZPv_WUsM0dKtDxlM2RNCQPgh9mn0DBK1p3kTJchUaF45Qjuhn3XMb0ZhRsjg8BhjJgETignSFECzbJ9TFXWI3HTuwtEpHDyccCZdy8ZHX4SdKCc2nn97JfmduFC7e84K17Mnl_1m9OPAE7elYUUYT_ivHA-xvactOsDLPtvHPcxqK0hc4jhwXDCwJAvQXWNtAlgnuaO1pt5tbG6azo0qgI0xZ3PCzepfZVlHF3SW5sdI7w1pLcsWXg7o5xfPLu9ECHxVhQJPGhc6G2Q7zR-LS-8io1kDlruiBvGL5pM15IxaYo9e7Je1mqnuqpgtBGi6rhmxEGajV1ZTuWqMY78_beuFw7R8vFabXhPTFDRG9wSur5LRY0YcT1NYI1G-wOQYtHhXx6seexg81up1nFCgF59TuOJdzEkDIrEQtBHOurbd5vFjhLPwC6E8bYCJsSgRilYlAM8o70Xi54elEruqvQh4_ly3sweGUlDrVVjfxh0KgOdYaSzZ1nw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Date: Mon, 06 Apr 2026 09:35:14 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adfeaa73df668bca83ada92f1e512b16f5465efbdec0ce677f9ba37336ccb0f4f309c02a108d318e17d140a0636de44200a; Path=/; Domain=.audi.vwg; Secure
+Transfer-Encoding: chunked
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+{
+    "data": [
+        
+    ],
+    "recordsTotal": 0
+}
+Request method:	GET
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012985/campaigns?type=scheduled
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	type=scheduled
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTQsImV4cCI6MTc3NTQ3ODkxNCwidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.CBAuJ5mpQr-STNLOL9GmZigZL6TS41jJZJD3bkjsWdEqruOBdPSVtVBKnmllf3RSGZ4qjvnNj18zmlCUWYPrxj_7qBnHkr-UFjvJ2v7FTTn8lhBIJJxscYKtFDklPF-X-qNK_8tm8OXDrnwDnz1sBz7ll1XMB1XTdEFHrvYCT3bUnt3k-GMLZPv_WUsM0dKtDxlM2RNCQPgh9mn0DBK1p3kTJchUaF45Qjuhn3XMb0ZhRsjg8BhjJgETignSFECzbJ9TFXWI3HTuwtEpHDyccCZdy8ZHX4SdKCc2nn97JfmduFC7e84K17Mnl_1m9OPAE7elYUUYT_ivHA-xvactOsDLPtvHPcxqK0hc4jhwXDCwJAvQXWNtAlgnuaO1pt5tbG6azo0qgI0xZ3PCzepfZVlHF3SW5sdI7w1pLcsWXg7o5xfPLu9ECHxVhQJPGhc6G2Q7zR-LS-8io1kDlruiBvGL5pM15IxaYo9e7Je1mqnuqpgtBGi6rhmxEGajV1ZTuWqMY78_beuFw7R8vFabXhPTFDRG9wSur5LRY0YcT1NYI1G-wOQYtHhXx6seexg81up1nFCgF59TuOJdzEkDIrEQtBHOurbd5vFjhLPwC6E8bYCJsSgRilYlAM8o70Xi54elEruqvQh4_ly3sweGUlDrVVjfxh0KgOdYaSzZ1nw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Date: Mon, 06 Apr 2026 09:35:15 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adfce048150cf11b9a80dc3cfe352878974155e3a28eca2ef4e63b311de4aa9fe909a6cd99d75e871d9cf7b64f09ce6b7c5; Path=/; Domain=.audi.vwg; Secure
+Transfer-Encoding: chunked
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+{
+    "data": [
+        
+    ],
+    "recordsTotal": 0
+}
+Request method:	GET
+Request URI:	https://tui2-mbbonup-mgmt04.audi-connect.web.audi.vwg/onup/api/bs/oru/v1/V/vehicle/BVWDSCSLZ24012985/campaigns?type=active
+Proxy:			http://proxy.in.audi.vwg:8080
+Request params:	<none>
+Query params:	type=active
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJraWQiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwiY3R5IjoiYWRtaW5VaVRva2VuX3YxXzBfNiIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NzU0NjgxMTUsImV4cCI6MTc3NTQ3ODkxNSwidG50IjpbeyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJQIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJBIn0seyJkb21haW5zIjpbIk8iLCJVQSIsIlUiXSwiYnJhbmQiOiJWIn1dLCJpc3MiOiJDTj1TdWx6ZXIsIE9VPVVua25vd24sIE89VW5rbm93biwgTD1Vbmtub3duLCBTVD1Vbmtub3duLCBDPURFIiwic3ViIjoiYWRtaW4iLCJhdWQiOiJNQkJCX09OVVAiLCJjaWQiOiJUZXN0aW5nX1N1bHplciIsIm5hbWUiOiJhZG1pbiJ9.m5uGPoHoazbv8ZiVG6nOWuwxYdem5O1OtBP7WZ3XKRUvekuIvuvjAQs9D2UajPnM8VXNe9l3UlCeO1KpVWeJ0EkNVh-DGjkGWV1zuzWoYH-JgFva8zlnoPdYimplS-v0sk3SEdljU-zuJ1rbZAsRwquGVRl8Co5rvUzEJkN8DBHUkm46P5Q1o8-EkmCBHC8x0ObZTrbwA41H4JMVWFPIHAuSZ2ts92fFgha5eYUSRVM32cmE62WoLM6IPQvi68JoE543vrCF6APCYWKpJM-Yg7t8noLl38Uo8M9ks0aLaOOyeGvvlnHDRO_Jp2Dklq9cGX6aGp6vXX0yTB2JAq0kyS-ScG88wxOvQzNCMhYjkHyxg5Bxu3uJTEgA0hJSDnS3vi96sZF2xLJfgMnfi32Qxh89vKqMvFo_den-dntdVj0Jj6VjYt9nkMSZA8U7E24IjMWaRvGafhWU38eI_7T9ByFKAj5xo6HVhJfr40fxFz1ZzCfyq1Vl2ipz3wt5FXvS0aOVxT7rzrwZRWHOnddqytxlqGOEC9DSyXoHP_Sm5_bYojqibpijZuxwEGtk6GE_uMICxPbhdzseYEdgzdCZmkgeI_jR3GUgl1dbplOhSI4QJms5sxEi8MPI_GCmx9NYg6TvImiXpjlV-Vs68DKW0WyG3g2rLyu_m5yeYkrbSTs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Date: Mon, 06 Apr 2026 09:35:15 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Set-Cookie: TS0109d459=01df373adf41bd4c3b5005ddedbd19a4b98325b1152fdb23e6d623fe4bdf1011b01982d287e77c48533493ba0ac77b5baf31585ef4; Path=/; Domain=.audi.vwg; Secure
+Transfer-Encoding: chunked
+Set-Cookie: LBCOOKIE=1168711084.44104.0000; path=/; Httponly; Secure
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+{
+    "data": [
+        
+    ],
+    "recordsTotal": 0
+}

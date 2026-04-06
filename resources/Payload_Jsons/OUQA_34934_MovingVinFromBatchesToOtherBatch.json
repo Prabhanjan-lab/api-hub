@@ -1,0 +1,41 @@
+{
+  "partNumberFilter": "",
+  "importerFilter": null,
+  "pKNRangeFrom": "{}",
+  "pKNRangeTill": "{}",
+  "selectedVehicles": [
+    {
+      "batchName": "AAA",
+      "batchAction": "NEW",
+      "batchGroupId": null,
+      "flashIdentifier": "20240502ACH"
+    },
+    { 
+      "batchName": "BBB",
+      "batchAction": "NEW",
+      "batchGroupId": null,
+      "flashIdentifier": "20240502ACH"
+    }
+  ],
+  "flashmedium": {
+    "amCode": "SA0Z",
+    "amId": "20240502",
+    "flashIdentifier": "20240502ACH",
+    "tnr": "20240502ACH",
+    "status": "CREATED",
+    "revision": "1",
+    "name": "FM_Index_2.zip"
+  },
+  "campaignId": "campaignID",
+  "campaignTitle": "campaigntitle",
+  "criterionId": "01",
+  "criterionTitle": "01",
+  "manual": false,
+  "predecessor": "BBB",
+  "target": "30",
+  "newName": "CCC",
+  "draftChargeId": "draftId",
+  "approved": true,
+  "pknNumberFilter": "\"1/7/*/2016/1/7/*/2024\"",
+  "transactionalId": "transactionalid"
+}

@@ -1,0 +1,38 @@
+{
+            "id": "F9DCC2A0-5A47-51F7-371A-10E0F6EE1DA0",
+            "importerCode": "100",
+            "comment": "IT Sulzer sravani kaki",
+            "vin": "BVWSUL9CB23101901",
+            "oldVin": "BVWSUL9CB23101901",
+            "mbt": "8Y8",
+            "mbv": "12345YEAH",
+            "modelYear": 2019,
+            "username": "Srinivas Adur",
+            "prNumbers": [
+                "ODP"
+            ],
+            "pknNumber": "014992018",
+            "createdByName": "Srinivas Adur",
+            "dealers": [
+                {
+                    "type": 0,
+                    "countryCode": "FIN",
+                    "partnerNumber": "10000",
+                    "brand": "VW PKW",
+                    "wholesaler": "100"
+                },
+                {
+                    "type": 1,
+                    "countryCode": null,
+                    "partnerNumber": null,
+                    "wholesaler": null
+                },
+                {
+                    "type": 2,
+                    "countryCode": null,
+                    "partnerNumber": null,
+                    "wholesaler": null
+                }
+            ],
+            "effectiveCountry": "FIN (Finland)"
+        }

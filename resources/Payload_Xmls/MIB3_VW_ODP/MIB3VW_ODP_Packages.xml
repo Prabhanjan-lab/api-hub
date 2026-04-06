@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<oudr:resourceRequest xmlns:oudr="http://www.vw.com/mbb/onlineUpdateDownloadResourcesRequest" xmlns:oum="http://www.vw.com/mbb/onlineUpdateModule">
+	<oudr:requestedModules>
+		<oum:module>
+			<oum:parent>SpeechApp</oum:parent>
+			<oum:name>common</oum:name>
+			<oum:hwi>0</oum:hwi>
+			<oum:swv>302.1904.0</oum:swv>
+		</oum:module>
+		<oum:module>
+			<oum:parent>SpeechApp</oum:parent>
+			<oum:name>sr</oum:name>
+			<oum:hwi>0</oum:hwi>
+			<oum:swv>302.1904.0</oum:swv>
+		</oum:module>
+	</oudr:requestedModules>
+</oudr:resourceRequest>

@@ -1,0 +1,1368 @@
+{
+  "testdata" : [ {
+    "name" : "MIB3Audi_NoBatch",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101801",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0Q",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_NoApproval",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101802",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0R",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_RepairDone",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101803",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBOM",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_RepairComplete",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101804",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0Y",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101805",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0U",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_NoTranslation",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101806",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0V",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_VetoAdvice",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101807",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TB0W",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3Audi_IncorrectCampaignProcess",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101808",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBON",
+      "criterion" : "01",
+      "brand" : "A",
+      "batchName" : "Default",
+      "amId" : "11032024",
+      "amCode" : "TB0D",
+      "TNR" : "11032024ACH",
+      "flashMedium" : "MAIN_MIB3H_AU_ER_G4x_TS_Sysapps_222050938DEV_SpeechApp_ChkA .zip"
+    } ]
+  }, {
+    "name" : "MIB3Audi_ImplausibleVC",
+    "data" : [ {
+      "vin" : "BAUNEEGAZ23101806",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TASE",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "MIB3VW_NoBatch",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101901",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0A",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_NoApproval",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101902",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2J",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_RepairDone",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101903",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOP",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_RepairComplete",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101904",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2B",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101905",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0E",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_ImplausibleVC",
+    "data" : [ {
+      "vin" : "BVWEE9CB218092104",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "SUUJ",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101906",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOQ",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0A",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "MAIN_MIB3H_AU_ER_G4x_TS_Sysapps_222050938DEV_SpeechApp_ChkA.zip"
+    } ]
+  }, {
+    "name" : "MIB3VW_NoTranslation",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101907",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0G",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "MIB3VW_VetoAdvice",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101908",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0H",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWMIB3_CancelUpdateJobs_AEU1_and_VCSO_19_new",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101924",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOW",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0A",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "MAIN_MIB3H_AU_ER_G4x_TS_Sysapps_222050938DEV_SpeechApp_ChkA.zip"
+    } ]
+  }, {
+    "name" : "VWMIB3_CancelUpdateJobs_AEU13_and_VCSO_21",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012900",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOX",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWMIB3_CancelUpdateJobs_AEU1_VCSO_2",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012901",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1U",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0A",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "MAIN_MIB3H_AU_ER_G4x_TS_Sysapps_222050938DEV_SpeechApp_ChkA.zip"
+    } ]
+  }, {
+    "name" : "VWMIB3_Trigger_CancelUpdateJobs_AEU13_VCSO_5_new",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012902",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1V",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWMIB3_CancelUpdateJobs_AEU13_and_VCSO_16",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101925",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1S",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWMIB3_UNECE_REG_VCSO_38_Variant_mismatch_result_4_13_unblock_manually_Campaign_rescheduled",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012913",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1E",
+      "criterion" : "01",
+      "brand" : "V",
+      "domain" : "INFOTAINMENT"
+    } ]
+  }, {
+    "name" : "VWMIB3_UNECE_REG_VCSO_38_Variant_mismatch_result_4_13_VCSO_46",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012912",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1D",
+      "criterion" : "01",
+      "brand" : "V",
+      "domain" : "INFOTAINMENT"
+    } ]
+  }, {
+    "name" : "VWMIB3_UNECE_REG_Skipping_Features_should_be_treated_as_empty_field",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012914",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1F",
+      "criterion" : "01",
+      "brand" : "V",
+      "domain" : "INFOTAINMENT"
+    } ]
+  }, {
+    "name" : "OCU3Audi_NoBatch",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "SABJ",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_NoApproval",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "SABJ",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_RepairDone",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_RepairComplete",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_ImplausibleVC",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A",
+      "batchName" : "Default",
+      "amId" : "2023100413",
+      "amCode" : "TBAG",
+      "TNR" : "2023100413",
+      "flashMedium" : "FL_571035284_X005_PART2B152REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "OCU3Audi_NoTranslation",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "OCU3Audi_VetoAdvice",
+    "data" : [ {
+      "vin" : "BAUSLZ8Y119110501",
+      "board" : "5F",
+      "scope" : "t1_a:teltech",
+      "campaign" : "TBAH",
+      "criterion" : "01",
+      "brand" : "A"
+    } ]
+  }, {
+    "name" : "VWOCU3_NoBatch",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101909",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0I",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_NoApproval",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101910",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0J",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_RepairDone",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101911",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOR",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_RepairComplete",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101912",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2A",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101913",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0M",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_ImplausibleVC",
+    "data" : [ {
+      "vin" : "BVWEE9CB218092104",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "SUUJ",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101914",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOT",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VWOCU3_NoTranslation",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101915",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0O",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_VetoAdvice",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101916",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB0P",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VW_OCU3_Trigger_CancelUpdateJobs_AEU13_and_VCSO_19_new",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101917",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOU",
+      "criterion" : "01",
+      "brand" : "V",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VW_OCU3_CancelUpdateJobs_AEU13_and_VCSO_36",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101921",
+      "vin2" : "BVWSUL9CB23101922",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1P",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VW_OCU3_CancelUpdateJobs_AEU1_VCSO_36",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101909",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB00",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VW_OCU3_CancelUpdateJobs_AEU1_and_VCSO_21",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101920",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOV",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VW_OCU3_CancelUpdateJobs_AEU1_and_VCSO_5_new2_noJob",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101923",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1Q",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VW_OCU3_CancelUpdateJobs_AEU1_and_VCSO_16",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101919",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB01",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "TNR" : "20240308ACH",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_Retest_Bug_OU_2031_Logging_Overview_with_invalid_payload_in_GLCS_packages",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012903",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOH",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_Retest_Bug_OU_2064_Notify_Vehicles_with_Missing_Translation",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012904",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1X",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_Retest_Bug_OU_3138_VC_hash_not_checked_for_result_upload",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012910",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOL",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_Retest_Bug_OU_2085_KPM_7395447_Vehicle_Blocked",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012911",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1C",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_package_with_unknown_VC_Response_has_to_be_HTTP_404",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012909",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOK",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_After_unsuccessful_installation_campaign_in_blocked_state",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012905",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOJ",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_CancelUpdateJobs_AEU10_and_VCSO_40",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012908",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2P",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_CancelUpdateJobs_AEU10_and_VCSO_12",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012907",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2O",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_NoBatch",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012915",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1G",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_NoApproval",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012916",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB1H",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_RepairDone",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012917",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOZ",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_NoRepairComplete",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012918",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2D",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_NoTranslation",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012919",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2E",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012920",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOS",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "202404191234",
+      "amCode" : "TB0C",
+      "TNR" : "202404191234",
+      "flashMedium" : "FL_5QS035741A_X609_TMALLORU3_V001_E.pdx"
+    } ]
+  }, {
+    "name" : "TM1VW_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012921",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2G",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "TM1VW_VetoAdvice",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012922",
+      "board" : "8107",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB2H",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_AbortRepair_No_Batch",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012928",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB20",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_AbortRepair_No_Approval",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012929",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB21",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_RepairDone",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012930",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB22",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_RepairComplete",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012931",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB23",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_AbortRepair_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012932",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB24",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "202405241234",
+      "amCode" : "TB0F",
+      "TNR" : "202405241234",
+      "flashMedium" : "MHI3_ER_AUG45S_E3212.1_X212_SpeechApp.zip"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_AbortRepair_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012933",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB25",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Passat_MIB3_VetoAdvice_notSupport",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012934",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB26",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_MIB3VW_NoTranslation",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012935",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB27",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_NoBatch",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012936",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB30",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_NoApproval",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012937",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB31",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "PASSAT_OCU3_Repairdone",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012938",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB32",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_RepairComplete",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012939",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB33",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_NoTranslation",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012940",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB34",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_IncorrectCampaignProgress",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012941",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB35",
+      "criterion" : "01",
+      "brand" : "V",
+      "batchName" : "Default",
+      "amId" : "202405271234",
+      "amCode" : "TB0H",
+      "TNR" : "202405271234",
+      "flashMedium" : "FL_4N2907468B_U009_51OTA__E.odx"
+    } ]
+  }, {
+    "name" : "NONUNECE_VW_OCU3_veto_advice",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012942",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB40",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VWOCU3_CampaignNotActive",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012943",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB36",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_VC_Mismatch",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012923",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOF",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_blocked_campaign_after_result_with_campaign_in_VCSO_19_can_be_manually_deblocked",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012924",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOE",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_Rollout_Status_result_code_4_detailcode_22_Check_VCSO_46_abd_rolloutstatus",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012925",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOD",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_Using_several_Batches_Automatic_approval_of_batches_has_to_work",
+    "data" : [ {
+      "recallIdGenerator" : "true",
+      "vin" : "BVWDSCSLZ24012926",
+      "vin2" : "BVWDSCSLZ24012927",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB8W",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0U",
+      "domain" : "OCU3",
+      "firstBatchName" : "AAA",
+      "firstBatchImporterValue" : "\"123\"",
+      "firstBatchTargetValue" : "50",
+      "secondBatchName" : "BBB",
+      "secondBatchPredecessorValue" : "\"AAA\"",
+      "secondBatchImporterValue" : "\"321\"",
+      "secondBatchTargetValue" : "50",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VWMIB3_CancelUpdateJobs_AEU13_and_VCSO_21_New",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012900",
+      "board" : "5F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBOX",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "Encrypted_campaignNumber_WrongStatusResponse",
+    "data" : [ {
+      "campaign" : "YYY",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "RetestBug_OU_4322_GETRequest_ChargeValidationDoesNotWork",
+    "data" : [ {
+      "campaign" : "TBOF",
+      "criterion" : "01",
+      "brand" : "V",
+      "firstChargeName" : "***"
+    } ]
+  }, {
+    "name" : "BugRetest_OU_3703_getRequest_MissingValueEntryInDocumentation",
+    "data" : [ {
+      "campaign" : "TB0M",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "UNECE_REG_03_TestingVehicleApproval_RemovalOfTheTestingVehicleFlag_ManualRecall",
+    "data" : [ {
+      "recallIdGenerator" : "true",
+      "vin" : "BVWDSCSLZ24012945",
+      "vin2" : "BVWDSCSLZ24012946",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TC0Q",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0U",
+      "domain" : "OCU3",
+      "defaultChargeName" : "Default",
+      "firstBatchName" : "AAA",
+      "firstBatchTargetValue" : "50",
+      "firstBatchImporterValue" : "\"123\"",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx",
+      "firstAutoApprovedbatchNameForVinInspection" : "QUFB"
+    } ]
+  }, {
+    "name" : "PUT_oru_campaignNumber_service42",
+    "data" : [ {
+      "campaign" : "1234",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "GET_detail_to_S42_error_code_404",
+    "data" : [ {
+      "amCode" : "1234",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "GET_logging_importlogid_Getting_status_200_with_invalid_searching_term",
+    "data" : [ {
+      "brand" : "V",
+      "invalidImportID" : "0000000",
+      "invalidPage" : "@!AAA!",
+      "invalidCount" : "@!BBB!"
+    } ]
+  }, {
+    "name" : "UNECE_VW_OCU3_REG_GLCS_RepairDone_moving_campaigns_into_the_active_queue",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012944",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB37",
+      "campaign2" : "TB38",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "REG_UNECE_Support_of_multiple_timestamps_in_requests_for_OCU3",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012947",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB39",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_Retest_Bug_OU_1770_ReCallAktions_areShownGrey_and_couldNotBeSelected",
+    "data" : [ {
+      "recallIdGenerator" : "false",
+      "vin" : "BVWNOTINLIST12929",
+      "campaign" : "TB42",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0U",
+      "domain" : "OCU3",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_Retest_Bug_OU_2250_Wrong_number_of_Released_unreleased_VINs",
+    "data" : [ {
+      "recallIdGenerator" : "true",
+      "vin" : "BVWDSCSLZ24012948",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TC0U",
+      "batchName" : "Default",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "domain" : "OCU3",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0U",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "VWOCU3_UNECE_REG_An_automaticallyBatch_hasToReleaseAutomatically_if_PreviousBatchReaches_ThePOC",
+    "data" : [ {
+      "recallIdGenerator" : "true",
+      "vin" : "BVWDSCSLZ24012907",
+      "vin2" : "BVWDSCSLZ24012908",
+      "vin3" : "BVWDSCSLZ24012915",
+      "vin4" : "BVWDSCSLZ24012952",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB3I",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0U",
+      "domain" : "OCU3",
+      "aaFirstBatchName" : "AAA",
+      "aaSecondBatchName" : "BBB",
+      "secondBatchPredecessorValue" : "\"AAA\"",
+      "firstBatchTargetValue" : "30",
+      "secondBatchTargetValue" : "30",
+      "firstBatchImporterValue" : "\"123\"",
+      "secondBatchImporterValue" : "\"321\"",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "REG_Creating_ORU_Campaign_with_imported_ReCall_with_2x5_VINs_for_finally_three_batches",
+    "data" : [ {
+      "recallIdGenerator" : "true",
+      "board" : "75",
+      "scope" : "t1_a:teltech",
+      "campaign" : "SA34",
+      "criterion" : "01",
+      "brand" : "A",
+      "brandContext" : "VW",
+      "TNR" : "29102024ACH",
+      "amId" : "29102024",
+      "amCode" : "SA0Z",
+      "aaFirstBatchName" : "AAA",
+      "aaSecondBatchName" : "BBB",
+      "aaThirdBatchName" : "CCC",
+      "secondBatchPredecessorValue" : "\"AAA\"",
+      "thirdBatchPredecessorValue" : "\"BBB\"",
+      "targetValue" : "30",
+      "firstBatchImporterValue" : "\"926\"",
+      "secondBatchMbtValue" : "\"4N4\"",
+      "thirdBatchPknValue" : "\"1/7/*/2016/1/7/*/2024\"",
+      "flashMedium" : "FM_Index_2.zip"
+    } ]
+  }, {
+    "name" : "TestingVehicleApproval_Notify_testingVehicles_manual_imported",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012963",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBJB",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandContext" : "VW",
+      "TNR" : "20240308ACH",
+      "amId" : "20240308",
+      "amCode" : "TB0B",
+      "domain" : "OCU3",
+      "batchName" : "Default",
+      "defaultBatchForVinInspection" : "RGVmYXVsdA=="
+    } ]
+  }, {
+    "name" : "UNECE_VW_OCU3_ServicePortlet_GetRemoteUpdatesByVehicle_starting_with_VCSO_3",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012965",
+      "campaign" : "TB71",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V"
+    } ]
+  }, {
+    "name" : "NON_UNECE_VW_OCU3_Invocation_of_getRemoteUpdatesByVehicle_and_NotifyVehicleCampaign_with_released_campaign_returns_Status_OK",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012966",
+      "campaign" : "TB72",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "actionDetails" : "Additional update job for vehicle requested via Service Portlet API [16]",
+      "operationCode" : "M3000",
+      "notifyVehicleStatus" : "OK"
+    } ]
+  }, {
+    "name" : "Current_Blocked_Vehicles_Error_Code_Filtering",
+    "data" : [ {
+      "vin1" : "BVWDSCSLZ24012967",
+      "vin2" : "BVWDSCSLZ24012968",
+      "vin3" : "BVWDSCSLZ24012969",
+      "vin4" : "BVWDSCSLZ24012907",
+      "vin5" : "BVWDSCSLZ24012908",
+      "vin6" : "BVWDSCSLZ24012915",
+      "vin7" : "BVWDSCSLZ24012952",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TBQ4",
+      "criterion" : "01",
+      "brand" : "V",
+      "TNR" : "20250228TEST",
+      "amId" : "20250228",
+      "amCode" : "TC2G",
+      "domain" : "OCU3",
+      "batchName" : "Default",
+      "flashMedium" : "FL_2GA035284_X004_PART2B109REL_V001_E.odx"
+    } ]
+  }, {
+    "name" : "NON_UNECE_Vehicle_Notification_not_sent_to_Campaign_at_VCSO_42",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230135",
+      "campaign" : "TB8R",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW",
+      "notifyVehicleStatus" : "NOK",
+      "notifyVehicleMessage" : "Notification has not been sent, because the vehicle campaign status in ORU 2/3 is not appropriate, i.e. the vehicle already got the notification and the campaign has already been started."
+    } ]
+  }, {
+    "name" : "NON_UNECE_Vehicle_Notification_not_sent_to_Campaign_at_VCSO_30",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230137",
+      "campaign" : "TB8Y",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW",
+      "notifyVehicleStatus" : "NOK",
+      "notifyVehicleMessage" : "Notification has not been sent, because the vehicle campaign is not active within ORU 2/3."
+    } ]
+  }, {
+    "name" : "Revise_Handling_of_GLCS_advice_request_at_VCSO_24",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230136",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB8T",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "REG_No_longer_in_active_queue_after_unblocking_blocked_vehicle",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230132",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB8H",
+      "criterion" : "01",
+      "brand" : "V",
+      "TNR" : "10561448",
+      "amId" : "2725640",
+      "amCode" : "TB88",
+      "domain" : "OCU3",
+      "batchName" : "Default",
+      "brandContext" : "VW",
+      "brandVW" : "VW",
+      "da" : "0075"
+    } ]
+  }, {
+    "name" : "RepairDone_with_ManualRecall_and_Imported_Service42",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230126",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB8I",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "No_Documentation_is_done_with_ImportedRecallandManualS42",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230130",
+      "campaign" : "TB8C",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "AfterTheCreationOfThe_exceptionListEntryForThe_VIN_no_documentationIsDone_TheCampaignIsDirectlyMovedTo_VCSO_30",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230128",
+      "campaign" : "TB8Z",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "ReviseHandlingOf_GLCS_ResultCode_4_22_RequestAt_VCSO_24",
+    "data" : [ {
+      "vin" : "WVWZZZSLZ20230140",
+      "campaign" : "TB8S",
+      "board" : "75",
+      "scope" : "t1_v:teltech",
+      "criterion" : "01",
+      "brand" : "V",
+      "brandVW" : "VW",
+      "da" : "0075",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "L_S_Massnotification_MIB3_MQTT_VW",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101926",
+      "board" : "005F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TF5D",
+      "criterion" : "01",
+      "brand" : "V",
+      "TNR" : "20250809ACH",
+      "amId" : "20250809",
+      "amCode" : "SOAP",
+      "domain" : "INFOTAINMENT",
+      "batchName" : "Default",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "Massnotification_TM1_MQTT_VW",
+    "data" : [ {
+      "vin" : "BVWDSCSLZ24012950",
+      "board" : "0075",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB43",
+      "criterion" : "01",
+      "brand" : "V",
+      "amId" : "20250819",
+      "amCode" : "TB9E",
+      "TNR" : "20250819ACH",
+      "domain" : "TM1",
+      "batchName" : "Default",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "UNECE_VW_MIB3_Publish_Job_and_send_veto_advice",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101924",
+      "board" : "005F",
+      "scope" : "t1_v:teltech",
+      "campaign" : "TB46",
+      "criterion" : "01",
+      "brand" : "V",
+      "TNR" : "20250809ACH",
+      "amId" : "20250809",
+      "amCode" : "SOAP",
+      "domain" : "INFOTAINMENT",
+      "batchName" : "Default",
+      "brandContext" : "VW"
+    } ]
+  }, {
+    "name" : "L_S_Massnotification_OCU3_MQTT_VW",
+    "data" : [ {
+      "vin" : "BVWSUL9CB23101927",
+      "board" : "0075",
+      "scope" : "t1_v:teltech",
+      "campaign" : "SBB4",
+      "criterion" : "01",
+      "brand" : "V",
+      "TNR" : "SLZTA0005",
+      "amId" : "42343445005",
+      "amCode" : "SBB1",
+      "domain" : "OCU3",
+      "batchName" : "Default",
+      "brandContext" : "VW"
+    } ]
+  } ]
+}
